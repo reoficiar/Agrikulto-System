@@ -23,6 +23,7 @@ Partial Class Frm_lot_by_lot_monitoring
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.RadGroupBox1 = New Telerik.WinControls.UI.RadGroupBox()
+        Me.btn_lotno = New Telerik.WinControls.UI.RadButton()
         Me.dp_cropyear = New Telerik.WinControls.UI.RadDropDownList()
         Me.RadLabel3 = New Telerik.WinControls.UI.RadLabel()
         Me.txt_search = New Telerik.WinControls.UI.RadTextBox()
@@ -41,6 +42,7 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_lotcode_history = New Telerik.WinControls.UI.RadListView()
         CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox1.SuspendLayout()
+        CType(Me.btn_lotno, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dp_cropyear, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txt_search, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -66,6 +68,7 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.RadGroupBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
         Me.RadGroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.RadGroupBox1.Controls.Add(Me.btn_lotno)
         Me.RadGroupBox1.Controls.Add(Me.dp_cropyear)
         Me.RadGroupBox1.Controls.Add(Me.RadLabel3)
         Me.RadGroupBox1.Controls.Add(Me.txt_search)
@@ -79,6 +82,15 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.RadGroupBox1.Name = "RadGroupBox1"
         Me.RadGroupBox1.Size = New System.Drawing.Size(254, 608)
         Me.RadGroupBox1.TabIndex = 0
+        '
+        'btn_lotno
+        '
+        Me.btn_lotno.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.btn_lotno.Location = New System.Drawing.Point(134, 125)
+        Me.btn_lotno.Name = "btn_lotno"
+        Me.btn_lotno.Size = New System.Drawing.Size(110, 24)
+        Me.btn_lotno.TabIndex = 123
+        Me.btn_lotno.Text = "Load Lot Code"
         '
         'dp_cropyear
         '
@@ -133,7 +145,7 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.RadLabel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RadLabel1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel1.Location = New System.Drawing.Point(5, 116)
+        Me.RadLabel1.Location = New System.Drawing.Point(10, 128)
         Me.RadLabel1.Name = "RadLabel1"
         Me.RadLabel1.Size = New System.Drawing.Size(92, 21)
         Me.RadLabel1.TabIndex = 118
@@ -146,11 +158,11 @@ Partial Class Frm_lot_by_lot_monitoring
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lv_lotcodelist.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lv_lotcodelist.ItemSpacing = -1
-        Me.lv_lotcodelist.Location = New System.Drawing.Point(6, 137)
+        Me.lv_lotcodelist.Location = New System.Drawing.Point(6, 155)
         Me.lv_lotcodelist.Name = "lv_lotcodelist"
         Me.lv_lotcodelist.SelectLastAddedItem = False
         Me.lv_lotcodelist.ShowGridLines = True
-        Me.lv_lotcodelist.Size = New System.Drawing.Size(243, 435)
+        Me.lv_lotcodelist.Size = New System.Drawing.Size(243, 417)
         Me.lv_lotcodelist.TabIndex = 117
         Me.lv_lotcodelist.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
@@ -277,6 +289,7 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_lotcode_history.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lv_lotcode_history.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lv_lotcode_history.ItemSpacing = -1
         Me.lv_lotcode_history.Location = New System.Drawing.Point(5, 39)
         Me.lv_lotcode_history.Name = "lv_lotcode_history"
@@ -302,6 +315,7 @@ Partial Class Frm_lot_by_lot_monitoring
         CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadGroupBox1.ResumeLayout(False)
         Me.RadGroupBox1.PerformLayout()
+        CType(Me.btn_lotno, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dp_cropyear, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txt_search, System.ComponentModel.ISupportInitialize).EndInit()
@@ -340,5 +354,6 @@ Partial Class Frm_lot_by_lot_monitoring
     Friend WithEvents lv_implement As Telerik.WinControls.UI.RadListView
     Friend WithEvents lv_equipment As Telerik.WinControls.UI.RadListView
     Friend WithEvents RadPanel4 As Telerik.WinControls.UI.RadPanel
+    Friend WithEvents btn_lotno As Telerik.WinControls.UI.RadButton
 End Class
 

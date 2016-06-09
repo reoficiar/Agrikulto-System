@@ -47,16 +47,16 @@ Public Class Frm_lot_by_lot_monitoring
             .Columns("id").Width = 60
             .Columns("id").Visible = False
             .Columns("count").Width = 60
-            .Columns("ticket_no").Width = 180
-            .Columns("need_date").Width = 200
-            .Columns("work_performed").Width = 150
-            .Columns("purpose").Width = 150
+            .Columns("ticket_no").Width = 120
+            .Columns("need_date").Width = 150
+            .Columns("work_performed").Width = 180
+            .Columns("purpose").Width = 220
             .Columns("date_planted").Width = 100
             .Columns("cur_variety").Width = 110
             .Columns("cur_area").Width = 100
             .Columns("operate_rate").Width = 100
             .Columns("area_done").Width = 100
-            .Columns("total_amount").Width = 100
+            .Columns("total_amount").Width = 110
 
             .FullRowSelect = True
             '.ShowGridLines = True
@@ -120,13 +120,12 @@ Public Class Frm_lot_by_lot_monitoring
     End Sub
 
     Private Sub dp_location_SelectedIndexChanged(sender As Object, e As UI.Data.PositionChangedEventArgs) Handles dp_location.SelectedIndexChanged
+        Me.lv_lotcodelist.Items.Clear()
         lot_history_class.dp_cropyear_load()
-        Me.dp_cropyear.SelectedIndex = 0
     End Sub
 
     Private Sub dp_cropyear_SelectedIndexChanged(sender As Object, e As UI.Data.PositionChangedEventArgs) Handles dp_cropyear.SelectedIndexChanged
         lotno_listview_column()
-        lot_history_class.monitoring_lotcode_load_listvoew(Me.dp_location.SelectedItem.ToString, Me.dp_cropyear.SelectedItem.ToString)
     End Sub
 
     Private Sub lv_lotcodelist_CellFormatting(sender As Object, e As ListViewCellFormattingEventArgs) Handles lv_lotcodelist.CellFormatting
@@ -138,6 +137,21 @@ Public Class Frm_lot_by_lot_monitoring
     End Sub
 
     Private Sub lv_lotcodelist_SelectedItemChanged(sender As Object, e As EventArgs) Handles lv_lotcodelist.SelectedItemChanged
+        lot_history_class.Global_lot_number_selected()
+
         activity_listview_column()
+        lot_history_class.activity_load_listview(lotno, Me.dp_cropyear.SelectedItem.ToString)
+
+        Me.lv_lotcode_history.GroupDescriptors.Clear()
+        Dim groupByType As New GroupDescriptor("cur_variety")
+        Me.lv_lotcode_history.GroupDescriptors.Add(groupByType)
+    End Sub
+
+    Private Sub btn_lotno_Click(sender As Object, e As EventArgs) Handles btn_lotno.Click
+        lot_history_class.monitoring_lotcode_load_listvoew(Me.dp_location.SelectedItem.ToString, Me.dp_cropyear.SelectedItem.ToString)
+    End Sub
+
+    Private Sub lv_lotcode_history_CellFormatting(sender As Object, e As ListViewCellFormattingEventArgs) Handles lv_lotcode_history.CellFormatting
+        lot_history_class.lv_cellformatting(e)
     End Sub
 End Class

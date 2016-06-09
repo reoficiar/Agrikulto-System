@@ -86,5 +86,8 @@ Module declaration
 #End Region
 #End Region
 
+#Region "MONITORING"
+    Public lotno As String = "'"
+#End Region
 
 End Module
