@@ -69,6 +69,49 @@ Public Class Frm_lot_by_lot_monitoring
         End With
     End Sub
 
+
+    Sub equipment_listview_column()
+        Me.lv_equipment.Columns.Clear()
+
+        With Me.lv_equipment
+            .Columns.Add("id", "hdr_id")
+            .Columns.Add("count", "#")
+            .Columns.Add("ticket_no", "TRIP TICKET NO.")
+            .Columns.Add("need_date", "TRIP TICKET DATE")
+            .Columns.Add("work_performed", "OPERATION PERFORMED")
+            .Columns.Add("purpose", "PURPOSE")
+            .Columns.Add("date_planted", "DATE PLANTED")
+            .Columns.Add("cur_variety", "VARIETY")
+            .Columns.Add("cur_area", "TOTAL AREA")
+            .Columns.Add("operate_rate", "OPERATION RATE")
+            .Columns.Add("area_done", "AREA FINISH")
+            .Columns.Add("total_amount", "TOTAL AMOUNT")
+
+            .Columns("id").Width = 60
+            .Columns("id").Visible = False
+            .Columns("count").Width = 60
+            .Columns("ticket_no").Width = 180
+            .Columns("need_date").Width = 200
+            .Columns("work_performed").Width = 150
+            .Columns("purpose").Width = 150
+            .Columns("date_planted").Width = 100
+            .Columns("cur_variety").Width = 110
+            .Columns("cur_area").Width = 100
+            .Columns("operate_rate").Width = 100
+            .Columns("area_done").Width = 100
+            .Columns("total_amount").Width = 100
+
+            .FullRowSelect = True
+            '.ShowGridLines = True
+            .ShowGroups = True
+            .EnableGrouping = True
+            .MultiSelect = False
+
+            Me.lv_equipment.EnableGrouping = True
+            Me.lv_equipment.ShowGroups = True
+        End With
+    End Sub
+
 #End Region
     Private Sub Frm_lot_by_lot_monitoring_Load(sender As Object, e As EventArgs) Handles Me.Load
         ThemeResolutionService.ApplicationThemeName = My.Settings.global_themes

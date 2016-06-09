@@ -32,13 +32,13 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.dp_location = New Telerik.WinControls.UI.RadDropDownList()
         Me.RadLabel19 = New Telerik.WinControls.UI.RadLabel()
         Me.RadGroupBox2 = New Telerik.WinControls.UI.RadGroupBox()
+        Me.RadPanel4 = New Telerik.WinControls.UI.RadPanel()
         Me.RadPanel3 = New Telerik.WinControls.UI.RadPanel()
         Me.RadPanel2 = New Telerik.WinControls.UI.RadPanel()
-        Me.RadListView2 = New Telerik.WinControls.UI.RadListView()
-        Me.RadListView1 = New Telerik.WinControls.UI.RadListView()
+        Me.lv_implement = New Telerik.WinControls.UI.RadListView()
+        Me.lv_equipment = New Telerik.WinControls.UI.RadListView()
         Me.RadPanel1 = New Telerik.WinControls.UI.RadPanel()
         Me.lv_lotcode_history = New Telerik.WinControls.UI.RadListView()
-        Me.RadPanel4 = New Telerik.WinControls.UI.RadPanel()
         CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox1.SuspendLayout()
         CType(Me.dp_cropyear, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,13 +51,13 @@ Partial Class Frm_lot_by_lot_monitoring
         CType(Me.RadLabel19, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadGroupBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox2.SuspendLayout()
+        CType(Me.RadPanel4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadPanel3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadPanel2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadListView2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadListView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lv_implement, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lv_equipment, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lv_lotcode_history, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadPanel4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -192,8 +192,8 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.RadGroupBox2.Controls.Add(Me.RadPanel4)
         Me.RadGroupBox2.Controls.Add(Me.RadPanel3)
         Me.RadGroupBox2.Controls.Add(Me.RadPanel2)
-        Me.RadGroupBox2.Controls.Add(Me.RadListView2)
-        Me.RadGroupBox2.Controls.Add(Me.RadListView1)
+        Me.RadGroupBox2.Controls.Add(Me.lv_implement)
+        Me.RadGroupBox2.Controls.Add(Me.lv_equipment)
         Me.RadGroupBox2.Controls.Add(Me.RadPanel1)
         Me.RadGroupBox2.Controls.Add(Me.lv_lotcode_history)
         Me.RadGroupBox2.HeaderText = ""
@@ -201,6 +201,17 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.RadGroupBox2.Name = "RadGroupBox2"
         Me.RadGroupBox2.Size = New System.Drawing.Size(889, 608)
         Me.RadGroupBox2.TabIndex = 1
+        '
+        'RadPanel4
+        '
+        Me.RadPanel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RadPanel4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.RadPanel4.Location = New System.Drawing.Point(5, 575)
+        Me.RadPanel4.Name = "RadPanel4"
+        Me.RadPanel4.Size = New System.Drawing.Size(879, 27)
+        Me.RadPanel4.TabIndex = 124
+        Me.RadPanel4.Text = "|| -----------------------------------------------------------------------"
         '
         'RadPanel3
         '
@@ -224,31 +235,31 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.RadPanel2.TabIndex = 122
         Me.RadPanel2.Text = "All work history performed to the specific Lot Code.:"
         '
-        'RadListView2
+        'lv_implement
         '
-        Me.RadListView2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.lv_implement.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadListView2.ItemSpacing = -1
-        Me.RadListView2.Location = New System.Drawing.Point(5, 473)
-        Me.RadListView2.Name = "RadListView2"
-        Me.RadListView2.SelectLastAddedItem = False
-        Me.RadListView2.ShowGridLines = True
-        Me.RadListView2.Size = New System.Drawing.Size(879, 99)
-        Me.RadListView2.TabIndex = 121
-        Me.RadListView2.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
+        Me.lv_implement.ItemSpacing = -1
+        Me.lv_implement.Location = New System.Drawing.Point(5, 473)
+        Me.lv_implement.Name = "lv_implement"
+        Me.lv_implement.SelectLastAddedItem = False
+        Me.lv_implement.ShowGridLines = True
+        Me.lv_implement.Size = New System.Drawing.Size(879, 99)
+        Me.lv_implement.TabIndex = 121
+        Me.lv_implement.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
-        'RadListView1
+        'lv_equipment
         '
-        Me.RadListView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.lv_equipment.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadListView1.ItemSpacing = -1
-        Me.RadListView1.Location = New System.Drawing.Point(5, 344)
-        Me.RadListView1.Name = "RadListView1"
-        Me.RadListView1.SelectLastAddedItem = False
-        Me.RadListView1.ShowGridLines = True
-        Me.RadListView1.Size = New System.Drawing.Size(879, 99)
-        Me.RadListView1.TabIndex = 120
-        Me.RadListView1.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
+        Me.lv_equipment.ItemSpacing = -1
+        Me.lv_equipment.Location = New System.Drawing.Point(5, 344)
+        Me.lv_equipment.Name = "lv_equipment"
+        Me.lv_equipment.SelectLastAddedItem = False
+        Me.lv_equipment.ShowGridLines = True
+        Me.lv_equipment.Size = New System.Drawing.Size(879, 99)
+        Me.lv_equipment.TabIndex = 120
+        Me.lv_equipment.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
         'RadPanel1
         '
@@ -274,17 +285,6 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_lotcode_history.Size = New System.Drawing.Size(879, 275)
         Me.lv_lotcode_history.TabIndex = 118
         Me.lv_lotcode_history.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
-        '
-        'RadPanel4
-        '
-        Me.RadPanel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadPanel4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.RadPanel4.Location = New System.Drawing.Point(5, 575)
-        Me.RadPanel4.Name = "RadPanel4"
-        Me.RadPanel4.Size = New System.Drawing.Size(879, 27)
-        Me.RadPanel4.TabIndex = 124
-        Me.RadPanel4.Text = "|| -----------------------------------------------------------------------"
         '
         'Frm_lot_by_lot_monitoring
         '
@@ -312,13 +312,13 @@ Partial Class Frm_lot_by_lot_monitoring
         CType(Me.RadLabel19, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadGroupBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadGroupBox2.ResumeLayout(False)
+        CType(Me.RadPanel4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadPanel3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadPanel2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadListView2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadListView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lv_implement, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lv_equipment, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadPanel1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lv_lotcode_history, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadPanel4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -337,8 +337,8 @@ Partial Class Frm_lot_by_lot_monitoring
     Friend WithEvents RadPanel1 As Telerik.WinControls.UI.RadPanel
     Friend WithEvents RadPanel3 As Telerik.WinControls.UI.RadPanel
     Friend WithEvents RadPanel2 As Telerik.WinControls.UI.RadPanel
-    Friend WithEvents RadListView2 As Telerik.WinControls.UI.RadListView
-    Friend WithEvents RadListView1 As Telerik.WinControls.UI.RadListView
+    Friend WithEvents lv_implement As Telerik.WinControls.UI.RadListView
+    Friend WithEvents lv_equipment As Telerik.WinControls.UI.RadListView
     Friend WithEvents RadPanel4 As Telerik.WinControls.UI.RadPanel
 End Class
 
