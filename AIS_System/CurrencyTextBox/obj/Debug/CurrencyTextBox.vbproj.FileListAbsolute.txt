@@ -1,0 +1,50 @@
+C:\Users\Jerome Maca\OneDrive\Documents\HRIS\HRIS\CurrencyTextBox\bin\Debug\CurrencyTextBox.dll
+C:\Users\Jerome Maca\OneDrive\Documents\HRIS\HRIS\CurrencyTextBox\bin\Debug\CurrencyTextBox.pdb
+C:\Users\Jerome Maca\OneDrive\Documents\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.Resources.resources
+C:\Users\Jerome Maca\OneDrive\Documents\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.vbproj.GenerateResource.Cache
+C:\Users\Jerome Maca\OneDrive\Documents\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.dll
+C:\Users\Jerome Maca\OneDrive\Documents\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\OneDrive\Documents\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.pdb
+C:\Users\Jerome Maca\OneDrive\Documents\HRIS\HRIS\CurrencyTextBox\bin\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\OneDrive\Documents\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.vbprojResolveAssemblyReference.cache
+C:\Users\Jerome Maca\Desktop\HRIS\HRIS\CurrencyTextBox\bin\Debug\CurrencyTextBox.dll
+C:\Users\Jerome Maca\Desktop\HRIS\HRIS\CurrencyTextBox\bin\Debug\CurrencyTextBox.pdb
+C:\Users\Jerome Maca\Desktop\HRIS\HRIS\CurrencyTextBox\bin\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\Desktop\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.Resources.resources
+C:\Users\Jerome Maca\Desktop\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.vbproj.GenerateResource.Cache
+C:\Users\Jerome Maca\Desktop\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.dll
+C:\Users\Jerome Maca\Desktop\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\Desktop\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.pdb
+D:\DEVELOPMENT\Dot_Net_Framework\HRIS\HRIS\CurrencyTextBox\bin\Debug\CurrencyTextBox.dll
+D:\DEVELOPMENT\Dot_Net_Framework\HRIS\HRIS\CurrencyTextBox\bin\Debug\CurrencyTextBox.pdb
+D:\DEVELOPMENT\Dot_Net_Framework\HRIS\HRIS\CurrencyTextBox\bin\Debug\CurrencyTextBox.xml
+D:\DEVELOPMENT\Dot_Net_Framework\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.Resources.resources
+D:\DEVELOPMENT\Dot_Net_Framework\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.vbproj.GenerateResource.Cache
+D:\DEVELOPMENT\Dot_Net_Framework\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.dll
+D:\DEVELOPMENT\Dot_Net_Framework\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.xml
+D:\DEVELOPMENT\Dot_Net_Framework\HRIS\HRIS\CurrencyTextBox\obj\Debug\CurrencyTextBox.pdb
+C:\Users\Jerome Maca\Desktop\Currency\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\bin\Debug\CurrencyTextBox.dll
+C:\Users\Jerome Maca\Desktop\Currency\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\bin\Debug\CurrencyTextBox.pdb
+C:\Users\Jerome Maca\Desktop\Currency\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\bin\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\Desktop\Currency\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.Resources.resources
+C:\Users\Jerome Maca\Desktop\Currency\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.vbproj.GenerateResource.Cache
+C:\Users\Jerome Maca\Desktop\Currency\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.dll
+C:\Users\Jerome Maca\Desktop\Currency\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\Desktop\Currency\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.pdb
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\bin\Debug\CurrencyTextBox.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\bin\Debug\CurrencyTextBox.pdb
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\bin\Debug\CurrencyTextBox.xml
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.Resources.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.vbproj.GenerateResource.Cache
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.xml
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.pdb
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\bin\Debug\CurrencyTextBox.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\bin\Debug\CurrencyTextBox.pdb
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\bin\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.vbprojResolveAssemblyReference.cache
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.Resources.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.vbproj.GenerateResource.Cache
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.pdb

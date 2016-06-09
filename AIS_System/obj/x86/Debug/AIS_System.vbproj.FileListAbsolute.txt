@@ -1,0 +1,306 @@
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe.config
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.exe
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.xml
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.pdb
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.pdb
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.xml
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Aqua.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2007Silver.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetroTouch.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\TelerikCommon.dll
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.pdb
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.xml
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.xml
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbprojResolveAssemblyReference.cache
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_equipment.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_implement.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_locations.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_planters.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_masterlist_implements.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_equipment.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_location.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_master_list_operation.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_other.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_databaseConnection.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_login.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_accomplished_posting.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_schedule_encoding.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_main.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_canepoint.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_jobsticket.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_ris.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_triptickets.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_work_operation.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_location_info.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_job_ticket_NEW.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_trip_ticket_NEWS.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_add.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_approve.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_update.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Resources.resources
+C:\Users\JeromeMaca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbproj.GenerateResource.Cache
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe.config
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.exe
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.xml
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.pdb
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.pdb
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.xml
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Aqua.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2007Silver.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetroTouch.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\TelerikCommon.dll
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.pdb
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.xml
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbprojResolveAssemblyReference.cache
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_equipment.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_implement.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_locations.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_planters.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_masterlist_implements.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_equipment.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_location.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_master_list_operation.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_other.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_databaseConnection.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_login.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_accomplished_posting.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_schedule_encoding.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_main.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_canepoint.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_jobsticket.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_ris.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_triptickets.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_work_operation.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_location_info.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_job_ticket_NEW.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_trip_ticket_NEWS.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_add.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_approve.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_update.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Resources.resources
+C:\Users\Jerome Maca\Desktop\DAY 23\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbproj.GenerateResource.Cache
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe.config
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.exe
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.xml
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.pdb
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.pdb
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.xml
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Aqua.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2007Silver.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetroTouch.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\TelerikCommon.dll
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.pdb
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.xml
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.xml
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbprojResolveAssemblyReference.cache
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_equipment.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_implement.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_locations.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_planters.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_masterlist_implements.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_equipment.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_location.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_master_list_operation.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_other.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_databaseConnection.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_login.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_accomplished_posting.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_schedule_encoding.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_main.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_canepoint.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_jobsticket.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_ris.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_triptickets.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_work_operation.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_location_info.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_job_ticket_NEW.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_trip_ticket_NEWS.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_add.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_approve.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_update.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Resources.resources
+C:\Users\JeromeMaca\Desktop\DAY 25\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbproj.GenerateResource.Cache
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe.config
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.exe
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.xml
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.pdb
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.pdb
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.xml
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Aqua.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2007Silver.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetroTouch.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\TelerikCommon.dll
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.pdb
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.xml
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.xml
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbprojResolveAssemblyReference.cache
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_equipment.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_implement.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_locations.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_planters.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_masterlist_implements.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_equipment.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_location.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_master_list_operation.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_other.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_databaseConnection.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_login.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_accomplished_posting.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_schedule_encoding.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_main.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_canepoint.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_jobsticket.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_ris.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_triptickets.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_work_operation.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_location_info.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_job_ticket_NEW.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_trip_ticket_NEWS.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_add.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_approve.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_update.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Resources.resources
+C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbproj.GenerateResource.Cache
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe.config
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.pdb
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Report_Lib.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Aqua.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.HighContrastBlack.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2007Black.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2007Silver.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Black.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Blue.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Office2013Light.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetro.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetroBlue.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.TelerikMetroTouch.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Dark.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Windows7.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Windows8.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\TelerikCommon.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Report_Lib.pdb
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Report_Lib.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.pdb
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbprojResolveAssemblyReference.cache
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_equipment.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_implement.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_locations.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_planters.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_trip_ticket_schedule_report.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_masterlist_implements.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_equipment.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_location.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_master_list_operation.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_other.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_databaseConnection.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_login.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_form_status.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_accomplished_posting.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_schedule_encoding.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_main.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_canepoint.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_jobsticket.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_ris.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_triptickets.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_work_operation.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_master_list_location_info.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_job_ticket_NEW.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_trip_ticket_NEWS.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_add.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_approve.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_update.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Resources.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbproj.GenerateResource.Cache
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.exe
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.pdb
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_lot_by_lot_monitoring.resources
