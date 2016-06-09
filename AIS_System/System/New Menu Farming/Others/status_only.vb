@@ -79,7 +79,7 @@ Public Class status_only
             sql = ""
             sql = "SELECT ROW_NUMBER() over ( PARTITION BY trip_date ORDER BY CONVERT(VARCHAR(12), hdr_create_date, 107) DESC) as #,hdr_id," _
                   & "lot_no, lot_owner_name, ownership, association_desc, CONVERT(VARCHAR(12), date_planted, 107) as date_planted, variety, current_area, soill_type, fiscal_year" _
-                   & " FROM v_trip_ticket_schedule_form WHERE hdr_id ='" & hdr_id & "' AND dtl_stats=2"
+                   & " FROM v_trip_ticket_schedule_form WHERE hdr_id ='" & hdr_id & "'"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
