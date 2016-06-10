@@ -29,8 +29,12 @@ Partial Class Frm_trip_ticket_monitoring
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(308, 292)
+        Me.ClientSize = New System.Drawing.Size(799, 451)
         Me.Name = "Frm_trip_ticket_monitoring"
+        '
+        '
+        '
+        Me.RootElement.ApplyShapeToControl = True
         Me.Text = "Frm_trip_ticket_monitoring"
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
