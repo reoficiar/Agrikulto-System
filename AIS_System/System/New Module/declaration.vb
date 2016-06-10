@@ -88,6 +88,7 @@ Module declaration
 
 #Region "MONITORING"
     Public lotno As String = "'"
+    Public dtl_id_monitoring As Integer = 0
 #End Region
 
 End Module
