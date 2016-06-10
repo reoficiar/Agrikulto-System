@@ -159,7 +159,7 @@ Partial Class Frm_master_list_other
         RadListDataItem3.TextWrap = True
         RadListDataItem4.Text = "Variety / Culture"
         RadListDataItem4.TextWrap = True
-        RadListDataItem5.Text = "Sub Contractor"
+        RadListDataItem5.Text = "Equipment / Implement Ownername"
         RadListDataItem5.TextWrap = True
         RadListDataItem6.Text = "Equipment Type"
         RadListDataItem6.TextWrap = True

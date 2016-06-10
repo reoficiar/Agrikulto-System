@@ -116,7 +116,7 @@ Public Class Frm_master_list_other
         With Me.lv_other_masterlist
             .Columns.Add("Id", "")
             .Columns.Add("Count", "#")
-            .Columns.Add("subcon", "SUB CONTRACTOR NAME")
+            .Columns.Add("subcon", "Owner Name")
 
             .Columns("Id").Width = 0
             .Columns("Id").Visible = False
