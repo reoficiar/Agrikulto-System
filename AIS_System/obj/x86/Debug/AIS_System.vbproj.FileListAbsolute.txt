@@ -304,3 +304,4 @@ C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_S
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.xml
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.pdb
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_lot_by_lot_monitoring.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_trip_ticket_monitoring.resources

@@ -312,6 +312,12 @@
     <Compile Include="System\New Menu Monitoring\frm_lot_by_lot_monitoring.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="System\New Menu Monitoring\frm_trip_ticket_monitoring.Designer.vb">
+      <DependentUpon>frm_trip_ticket_monitoring.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\New Menu Monitoring\frm_trip_ticket_monitoring.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="System\New Module\declaration.vb" />
     <EmbeddedResource Include="Forms\Data Maintenance\frm_equipment.resx">
       <DependentUpon>frm_equipment.vb</DependentUpon>
@@ -430,6 +436,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="System\New Menu Monitoring\frm_lot_by_lot_monitoring.resx">
       <DependentUpon>frm_lot_by_lot_monitoring.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\New Menu Monitoring\frm_trip_ticket_monitoring.resx">
+      <DependentUpon>frm_trip_ticket_monitoring.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
