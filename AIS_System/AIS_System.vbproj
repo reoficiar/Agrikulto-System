@@ -244,10 +244,10 @@
     <Compile Include="System\New Data Maintenance\frm_master_list_location.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="System\New Data Maintenance\frm_master_list_operation.Designer.vb">
+    <Compile Include="Forms\Data Maintenance\frm_master_list_operation.Designer.vb">
       <DependentUpon>frm_master_list_operation.vb</DependentUpon>
     </Compile>
-    <Compile Include="System\New Data Maintenance\frm_master_list_operation.vb">
+    <Compile Include="Forms\Data Maintenance\frm_master_list_operation.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="System\New Data Maintenance\frm_master_list_other.Designer.vb">
@@ -343,7 +343,7 @@
     <EmbeddedResource Include="System\New Data Maintenance\frm_master_list_location.resx">
       <DependentUpon>frm_master_list_location.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="System\New Data Maintenance\frm_master_list_operation.resx">
+    <EmbeddedResource Include="Forms\Data Maintenance\frm_master_list_operation.resx">
       <DependentUpon>frm_master_list_operation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="System\New Data Maintenance\frm_master_list_other.resx">
