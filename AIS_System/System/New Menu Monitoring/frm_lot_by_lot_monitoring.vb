@@ -41,6 +41,7 @@ Public Class Frm_lot_by_lot_monitoring
             .Columns.Add("cur_variety", "VARIETY")
             .Columns.Add("cur_area", "TOTAL AREA")
             .Columns.Add("operate_rate", "OPERATION RATE")
+            .Columns.Add("ope_hours", "WORK HOURS")
             .Columns.Add("area_done", "AREA FINISH")
             .Columns.Add("total_amount", "TOTAL AMOUNT")
 
@@ -55,6 +56,7 @@ Public Class Frm_lot_by_lot_monitoring
             .Columns("cur_variety").Width = 110
             .Columns("cur_area").Width = 100
             .Columns("operate_rate").Width = 100
+            .Columns("ope_hours").Width = 100
             .Columns("area_done").Width = 100
             .Columns("total_amount").Width = 110
 

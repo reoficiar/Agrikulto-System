@@ -37,9 +37,9 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.RadPanel3 = New Telerik.WinControls.UI.RadPanel()
         Me.RadPanel2 = New Telerik.WinControls.UI.RadPanel()
         Me.lv_implement = New Telerik.WinControls.UI.RadListView()
-        Me.lv_equipment = New Telerik.WinControls.UI.RadListView()
         Me.RadPanel1 = New Telerik.WinControls.UI.RadPanel()
         Me.lv_lotcode_history = New Telerik.WinControls.UI.RadListView()
+        Me.lv_equipment = New Telerik.WinControls.UI.RadListView()
         CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox1.SuspendLayout()
         CType(Me.btn_lotno, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -57,9 +57,9 @@ Partial Class Frm_lot_by_lot_monitoring
         CType(Me.RadPanel3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadPanel2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lv_implement, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.lv_equipment, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lv_lotcode_history, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lv_equipment, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -260,19 +260,6 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_implement.TabIndex = 121
         Me.lv_implement.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
-        'lv_equipment
-        '
-        Me.lv_equipment.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_equipment.ItemSpacing = -1
-        Me.lv_equipment.Location = New System.Drawing.Point(5, 344)
-        Me.lv_equipment.Name = "lv_equipment"
-        Me.lv_equipment.SelectLastAddedItem = False
-        Me.lv_equipment.ShowGridLines = True
-        Me.lv_equipment.Size = New System.Drawing.Size(879, 99)
-        Me.lv_equipment.TabIndex = 120
-        Me.lv_equipment.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
-        '
         'RadPanel1
         '
         Me.RadPanel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
@@ -298,6 +285,19 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_lotcode_history.Size = New System.Drawing.Size(879, 275)
         Me.lv_lotcode_history.TabIndex = 118
         Me.lv_lotcode_history.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
+        '
+        'lv_equipment
+        '
+        Me.lv_equipment.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lv_equipment.ItemSpacing = -1
+        Me.lv_equipment.Location = New System.Drawing.Point(5, 344)
+        Me.lv_equipment.Name = "lv_equipment"
+        Me.lv_equipment.SelectLastAddedItem = False
+        Me.lv_equipment.ShowGridLines = True
+        Me.lv_equipment.Size = New System.Drawing.Size(879, 99)
+        Me.lv_equipment.TabIndex = 120
+        Me.lv_equipment.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
         'Frm_lot_by_lot_monitoring
         '
@@ -330,9 +330,9 @@ Partial Class Frm_lot_by_lot_monitoring
         CType(Me.RadPanel3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadPanel2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lv_implement, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.lv_equipment, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadPanel1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lv_lotcode_history, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lv_equipment, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -352,8 +352,8 @@ Partial Class Frm_lot_by_lot_monitoring
     Friend WithEvents RadPanel3 As Telerik.WinControls.UI.RadPanel
     Friend WithEvents RadPanel2 As Telerik.WinControls.UI.RadPanel
     Friend WithEvents lv_implement As Telerik.WinControls.UI.RadListView
-    Friend WithEvents lv_equipment As Telerik.WinControls.UI.RadListView
     Friend WithEvents RadPanel4 As Telerik.WinControls.UI.RadPanel
     Friend WithEvents btn_lotno As Telerik.WinControls.UI.RadButton
+    Friend WithEvents lv_equipment As Telerik.WinControls.UI.RadListView
 End Class
 

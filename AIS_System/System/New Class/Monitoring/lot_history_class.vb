@@ -123,7 +123,8 @@ Public Class lot_history_class
                     & " ,REPLICATE('0', 6 - LEN(trip_ticket_no)) + CAST(trip_ticket_no AS varchar) AS trip_ticket_no" _
                      & ",CONVERT(VARCHAR(12), need_date, 107) as need_date,work_operation,purpose," _
                       & "CONVERT(VARCHAR(12), date_planted, 107) as date_planted,variety,current_area" _
-                     & ",rate_per_area,area_done,amount FROM v_trip_ticket_schedule_form WHERE status= 1 AND" _
+                     & ",rate_per_area,SUBSTRING(convert(varchar, [operate_hours] ,108),1,5) + ' ' + 'Hours' as operate_hours" _
+                    & ",area_done,amount FROM v_trip_ticket_schedule_form WHERE status= 1 AND" _
                       & " lot_no='" & lot_no & "' AND fiscal_year='" & fiscal_year & "' AND dtl_stats = 2 "
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -149,8 +150,48 @@ Public Class lot_history_class
                         list.SubItems.Add(sqlReader(9).ToString())
                         list.SubItems.Add(sqlReader(10).ToString())
                         list.SubItems.Add(sqlReader(11).ToString())
+                        list.SubItems.Add(sqlReader(12).ToString())
 
                         Frm_lot_by_lot_monitoring.lv_lotcode_history.Items.Add(list)
+                    End While
+                End Using
+                sqlCmd.Connection.Close()
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+
+    Shared Sub equipment_load_listview(dtl_id)
+        Try
+            sql = ""
+            sql = ""
+
+            Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+
+                Frm_lot_by_lot_monitoring.lv_equipment.Items.Clear()
+
+                sqlCnn.Open()
+                sqlCmd = New SqlCommand(sql, sqlCnn)
+
+                Using sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+
+                    While (sqlReader.Read())
+                        Dim list As New ListViewDataItem
+                        list.SubItems.Add(sqlReader(1).ToString())
+                        list.SubItems.Add(sqlReader(0).ToString())
+                        list.SubItems.Add(sqlReader(2).ToString())
+                        list.SubItems.Add(sqlReader(3).ToString())
+                        list.SubItems.Add(sqlReader(4).ToString())
+                        list.SubItems.Add(sqlReader(5).ToString())
+                        list.SubItems.Add(sqlReader(6).ToString())
+                        list.SubItems.Add(sqlReader(7).ToString())
+                        list.SubItems.Add(sqlReader(8).ToString())
+                        list.SubItems.Add(sqlReader(9).ToString())
+                        list.SubItems.Add(sqlReader(10).ToString())
+                        list.SubItems.Add(sqlReader(11).ToString())
+
+                        Frm_lot_by_lot_monitoring.lv_equipment.Items.Add(list)
                     End While
                 End Using
                 sqlCmd.Connection.Close()
