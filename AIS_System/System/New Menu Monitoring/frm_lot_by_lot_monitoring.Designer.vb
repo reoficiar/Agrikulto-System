@@ -294,6 +294,7 @@ Partial Class Frm_lot_by_lot_monitoring
         '
         'lv_lotcode_history
         '
+        Me.lv_lotcode_history.AllowColumnReorder = False
         Me.lv_lotcode_history.AllowEdit = False
         Me.lv_lotcode_history.AllowRemove = False
         Me.lv_lotcode_history.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -303,10 +304,18 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_lotcode_history.ItemSpacing = -1
         Me.lv_lotcode_history.Location = New System.Drawing.Point(5, 39)
         Me.lv_lotcode_history.Name = "lv_lotcode_history"
+        '
+        '
+        '
+        Me.lv_lotcode_history.RootElement.ApplyShapeToControl = False
+        Me.lv_lotcode_history.RootElement.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.[Default]
+        Me.lv_lotcode_history.RootElement.UseDefaultDisabledPaint = True
         Me.lv_lotcode_history.SelectLastAddedItem = False
         Me.lv_lotcode_history.ShowGridLines = True
+        Me.lv_lotcode_history.ShowItemToolTips = False
         Me.lv_lotcode_history.Size = New System.Drawing.Size(879, 199)
         Me.lv_lotcode_history.TabIndex = 118
+        Me.lv_lotcode_history.TabStop = False
         Me.lv_lotcode_history.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
         'Frm_lot_by_lot_monitoring

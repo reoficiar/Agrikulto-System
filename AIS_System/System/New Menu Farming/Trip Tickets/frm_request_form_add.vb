@@ -116,15 +116,13 @@ Public Class Frm_request_form_add
             e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
         End If
 
-        'If (e.CellElement).Data.Name = "count" Then
-        '    If (TypeOf e.CellElement Is DetailListViewHeaderCellElement) Then
-        '        e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
-        '    End If
-
-        '    If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
-        '        e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
-        '    End If
-        'End If
+       If (TypeOf e.Cellelement Is DetailListViewCellElement) Then
+            e.CellElement.DrawFill = False
+            e.CellElement.DrawBorder = False
+        Else
+            e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+            e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
+        End If
     End Sub
 
     Private Sub chk_group_CheckedChanged(sender As Object, e As EventArgs) Handles chk_group.CheckedChanged

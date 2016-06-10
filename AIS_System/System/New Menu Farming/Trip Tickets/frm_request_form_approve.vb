@@ -152,6 +152,14 @@ Public Class Frm_request_form_approve
         If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
             e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
         End If
+
+        If (TypeOf e.CellElement Is DetailListViewCellElement) Then
+            e.CellElement.DrawFill = False
+            e.CellElement.DrawBorder = False
+        Else
+            e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+            e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
+        End If
     End Sub
 
     Private Sub lv_implements_CellFormatting(sender As Object, e As ListViewCellFormattingEventArgs) Handles lv_implements.CellFormatting
@@ -163,6 +171,14 @@ Public Class Frm_request_form_approve
 
         If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
             e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
+        End If
+
+        If (TypeOf e.CellElement Is DetailListViewCellElement) Then
+            e.CellElement.DrawFill = False
+            e.CellElement.DrawBorder = False
+        Else
+            e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+            e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
         End If
     End Sub
 

@@ -182,6 +182,14 @@ Public Class Frm_schedule_encoding
                 e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
             End If
         End If
+
+        If (TypeOf e.CellElement Is DetailListViewCellElement) Then
+            e.CellElement.DrawFill = False
+            e.CellElement.DrawBorder = False
+        Else
+            e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+            e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
+        End If
     End Sub
 
     Private Sub lv_schedule_header_ItemMouseDoubleClick(sender As Object, e As ListViewItemEventArgs) Handles lv_schedule_header.ItemMouseDoubleClick
@@ -210,6 +218,14 @@ Public Class Frm_schedule_encoding
             If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
                 e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
             End If
+        End If
+
+        If (TypeOf e.CellElement Is DetailListViewCellElement) Then
+            e.CellElement.DrawFill = False
+            e.CellElement.DrawBorder = False
+        Else
+            e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+            e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
         End If
     End Sub
 

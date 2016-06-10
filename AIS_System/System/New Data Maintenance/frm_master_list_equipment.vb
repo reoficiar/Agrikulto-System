@@ -185,5 +185,13 @@ Public Class Frm_master_list_equipment
                 e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
             End If
         End If
+
+        If (TypeOf e.CellElement Is DetailListViewCellElement) Then
+            e.CellElement.DrawFill = False
+            e.CellElement.DrawBorder = False
+        Else
+            e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+            e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
+        End If
     End Sub
 End Class

@@ -350,6 +350,14 @@ Public Class Frm_trip_ticket_NEWS
         If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
             e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
         End If
+
+        If (TypeOf e.CellElement Is DetailListViewCellElement) Then
+            e.CellElement.DrawFill = False
+            e.CellElement.DrawBorder = False
+        Else
+            e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+            e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
+        End If
     End Sub
 
     Private Sub menubtn_refresh_Click(sender As Object, e As EventArgs) Handles menubtn_refresh.Click
@@ -420,6 +428,14 @@ Public Class Frm_trip_ticket_NEWS
         If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
             e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
         End If
+
+        If (TypeOf e.CellElement Is DetailListViewCellElement) Then
+            e.CellElement.DrawFill = False
+            e.CellElement.DrawBorder = False
+        Else
+            e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+            e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
+        End If
     End Sub
     Private Sub review_tripticket_schedule_Click(sender As Object, e As EventArgs) Handles review_tripticket_schedule.Click
         Frm_main.Enabled = False
@@ -467,6 +483,14 @@ Public Class Frm_trip_ticket_NEWS
             If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
                 e.CellElement.TextAlignment = ContentAlignment.MiddleRight
             End If
+        End If
+
+        If (TypeOf e.CellElement Is DetailListViewCellElement) Then
+            e.CellElement.DrawFill = False
+            e.CellElement.DrawBorder = False
+        Else
+            e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+            e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
         End If
     End Sub
 

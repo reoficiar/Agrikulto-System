@@ -98,4 +98,10 @@ Public Class Frm_main
         Frm_lot_by_lot_monitoring.MdiParent = Me
         Frm_lot_by_lot_monitoring.Show()
     End Sub
+
+    Private Sub menuitemtripticket_Click(sender As Object, e As EventArgs) Handles menuitemtripticket.Click
+        Frm_trip_ticket_monitoring.Text = "Trip Ticket Monitoring"
+        Frm_trip_ticket_monitoring.MdiParent = Me
+        Frm_trip_ticket_monitoring.Show()
+    End Sub
 End Class

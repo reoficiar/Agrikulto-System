@@ -28,6 +28,14 @@ Public Class schedule_form_view
                 e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
             End If
         End If
+
+        If (TypeOf e.Cellelement Is DetailListViewCellElement) Then
+            e.CellElement.DrawFill = False
+            e.CellElement.DrawBorder = False
+        Else
+            e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+            e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
+        End If
     End Sub
 #End Region
 
