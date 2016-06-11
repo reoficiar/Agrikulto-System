@@ -10,6 +10,7 @@ Public Class request_form_view
     Shared Sub lv_cellformatting(e)
         If TypeOf e.CellElement Is DetailListViewHeaderCellElement Then
             e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
+
         Else
             e.CellElement.ResetValue(LightVisualElement.TextAlignmentProperty, Telerik.WinControls.ValueResetFlags.Local)
         End If
@@ -18,15 +19,18 @@ Public Class request_form_view
             e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
         End If
 
-        If (e.CellElement).Data.Name = "grand_amount" Then
-            If (TypeOf e.CellElement Is DetailListViewHeaderCellElement) Then
-                e.CellElement.TextAlignment = ContentAlignment.MiddleRight
-            End If
+        'If (e.CellElement).Data.Name = "grand_amount" Then
+        '    If (TypeOf e.CellElement Is DetailListViewHeaderCellElement) Then
+        '        e.CellElement.TextAlignment = ContentAlignment.MiddleRight
+        '        e.CellElement.BackColor = Color.Red
+        '    Else
+        '        e.CellElement.ResetValue(LightVisualElement.BackColorProperty)
+        '    End If
 
-            If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
-                e.CellElement.TextAlignment = ContentAlignment.MiddleRight
-            End If
-        End If
+        '    If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
+        '        e.CellElement.TextAlignment = ContentAlignment.MiddleRight
+        '    End If
+        'End If
 
         If (TypeOf e.Cellelement Is DetailListViewCellElement) Then
             e.CellElement.DrawFill = False
@@ -35,6 +39,7 @@ Public Class request_form_view
             e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
             e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
         End If
+
     End Sub
 #End Region
 

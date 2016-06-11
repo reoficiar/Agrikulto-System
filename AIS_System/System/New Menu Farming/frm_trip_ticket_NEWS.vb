@@ -607,6 +607,4 @@ Public Class Frm_trip_ticket_NEWS
         Frm_form_status.Show()
     End Sub
 
-
-
 End Class
