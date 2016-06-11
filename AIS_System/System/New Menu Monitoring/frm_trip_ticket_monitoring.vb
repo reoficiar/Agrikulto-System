@@ -85,12 +85,45 @@ Public Class Frm_trip_ticket_monitoring
             .MultiSelect = False
         End With
     End Sub
+
+    Sub trip_ticket_information_listview_column()
+        Me.lv_tripticket_information.Columns.Clear()
+
+        With Me.lv_tripticket_information
+            .Columns.Add("count", "#")
+            .Columns.Add("lot_no", "LOT NO.")
+            .Columns.Add("date_planted", "DATE PLANTED")
+            .Columns.Add("variety", "VARIETY")
+            .Columns.Add("lot_owner", "LOT OWNER")
+            .Columns.Add("operation", "WORK TO PERFORMED")
+            .Columns.Add("request_date", "REQUEST DATE")
+            .Columns.Add("request_by", "REQUEST BY")
+            .Columns.Add("approved_date", "APPROVED DATE")
+            .Columns.Add("approved_by", "APPROVED BY")
+
+            .Columns("count").Width = 50
+            .Columns("lot_no").Width = 110
+            .Columns("date_planted").Width = 140
+            .Columns("variety").Width = 120
+            .Columns("lot_owner").Width = 150
+            .Columns("operation").Width = 200
+            .Columns("request_date").Width = 150
+            .Columns("request_by").Width = 150
+            .Columns("approved_date").Width = 150
+            .Columns("approved_by").Width = 150
+
+            .FullRowSelect = True
+            .ShowGroups = True
+            .EnableGrouping = True
+            .MultiSelect = False
+        End With
+    End Sub
 #End Region
     Private Sub Frm_trip_ticket_monitoring_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ThemeResolutionService.ApplicationThemeName = My.Settings.global_themes
         'Farming_Operation.Server_time()
 
-        trip_ticket_list_listview_column() : trip_ticket_processed_listview_column() : trip_ticket_unprocessed_listview_column()
+        trip_ticket_list_listview_column() : trip_ticket_processed_listview_column() : trip_ticket_unprocessed_listview_column() : trip_ticket_information_listview_column()
     End Sub
 
 End Class

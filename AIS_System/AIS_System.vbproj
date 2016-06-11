@@ -189,6 +189,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="System\New Class\Monitoring\lot_history_class.vb" />
+    <Compile Include="System\New Class\Monitoring\trip_ticket_class.vb" />
     <Compile Include="System\New Class\Other Class\equipment_masterlist_view.vb" />
     <Compile Include="System\New Class\Other Class\implement_masterlist_view.vb" />
     <Compile Include="System\New Class\Other Class\location_masterlist_view.vb" />

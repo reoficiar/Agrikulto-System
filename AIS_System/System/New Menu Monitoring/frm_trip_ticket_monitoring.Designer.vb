@@ -23,44 +23,45 @@ Partial Class Frm_trip_ticket_monitoring
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.RadGroupBox1 = New Telerik.WinControls.UI.RadGroupBox()
+        Me.RadPanel1 = New Telerik.WinControls.UI.RadPanel()
         Me.btn_lotno = New Telerik.WinControls.UI.RadButton()
         Me.lv_trip_ticket_list = New Telerik.WinControls.UI.RadListView()
         Me.RadGroupBox4 = New Telerik.WinControls.UI.RadGroupBox()
-        Me.RadLabel5 = New Telerik.WinControls.UI.RadLabel()
         Me.lv_tripticket_information = New Telerik.WinControls.UI.RadListView()
+        Me.RadLabel5 = New Telerik.WinControls.UI.RadLabel()
         Me.RadGroupBox3 = New Telerik.WinControls.UI.RadGroupBox()
-        Me.RadLabel3 = New Telerik.WinControls.UI.RadLabel()
         Me.lv_tripticket_unprocessed = New Telerik.WinControls.UI.RadListView()
+        Me.RadLabel3 = New Telerik.WinControls.UI.RadLabel()
         Me.RadGroupBox2 = New Telerik.WinControls.UI.RadGroupBox()
-        Me.RadLabel4 = New Telerik.WinControls.UI.RadLabel()
         Me.lv_tripticket_processed = New Telerik.WinControls.UI.RadListView()
+        Me.RadLabel4 = New Telerik.WinControls.UI.RadLabel()
         Me.RadSplitContainer1 = New Telerik.WinControls.UI.RadSplitContainer()
         Me.SplitPanel1 = New Telerik.WinControls.UI.SplitPanel()
         Me.SplitPanel2 = New Telerik.WinControls.UI.SplitPanel()
-        Me.RadPanel1 = New Telerik.WinControls.UI.RadPanel()
         CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox1.SuspendLayout()
+        CType(Me.RadPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RadPanel1.SuspendLayout()
         CType(Me.btn_lotno, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lv_trip_ticket_list, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadGroupBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox4.SuspendLayout()
-        CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lv_tripticket_information, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadGroupBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox3.SuspendLayout()
-        CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lv_tripticket_unprocessed, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadGroupBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox2.SuspendLayout()
-        CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lv_tripticket_processed, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadSplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadSplitContainer1.SuspendLayout()
         CType(Me.SplitPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitPanel1.SuspendLayout()
         CType(Me.SplitPanel2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitPanel2.SuspendLayout()
-        CType(Me.RadPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -70,7 +71,6 @@ Partial Class Frm_trip_ticket_monitoring
         Me.RadGroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.RadGroupBox1.Controls.Add(Me.RadPanel1)
-        Me.RadGroupBox1.Controls.Add(Me.btn_lotno)
         Me.RadGroupBox1.Controls.Add(Me.lv_trip_ticket_list)
         Me.RadGroupBox1.HeaderText = ""
         Me.RadGroupBox1.Location = New System.Drawing.Point(0, 4)
@@ -78,10 +78,23 @@ Partial Class Frm_trip_ticket_monitoring
         Me.RadGroupBox1.Size = New System.Drawing.Size(368, 580)
         Me.RadGroupBox1.TabIndex = 1
         '
+        'RadPanel1
+        '
+        Me.RadPanel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RadPanel1.Controls.Add(Me.btn_lotno)
+        Me.RadPanel1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.RadPanel1.Location = New System.Drawing.Point(6, 4)
+        Me.RadPanel1.Name = "RadPanel1"
+        Me.RadPanel1.Size = New System.Drawing.Size(356, 32)
+        Me.RadPanel1.TabIndex = 124
+        Me.RadPanel1.Text = "Issued Trip Ticket"
+        Me.RadPanel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'btn_lotno
         '
         Me.btn_lotno.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.btn_lotno.Location = New System.Drawing.Point(252, 23)
+        Me.btn_lotno.Location = New System.Drawing.Point(3, 4)
         Me.btn_lotno.Name = "btn_lotno"
         Me.btn_lotno.Size = New System.Drawing.Size(110, 24)
         Me.btn_lotno.TabIndex = 123
@@ -96,11 +109,11 @@ Partial Class Frm_trip_ticket_monitoring
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lv_trip_ticket_list.Font = New System.Drawing.Font("Segoe UI", 7.5!, System.Drawing.FontStyle.Bold)
         Me.lv_trip_ticket_list.ItemSpacing = -1
-        Me.lv_trip_ticket_list.Location = New System.Drawing.Point(6, 86)
+        Me.lv_trip_ticket_list.Location = New System.Drawing.Point(6, 32)
         Me.lv_trip_ticket_list.Name = "lv_trip_ticket_list"
         Me.lv_trip_ticket_list.SelectLastAddedItem = False
         Me.lv_trip_ticket_list.ShowGridLines = True
-        Me.lv_trip_ticket_list.Size = New System.Drawing.Size(356, 489)
+        Me.lv_trip_ticket_list.Size = New System.Drawing.Size(356, 543)
         Me.lv_trip_ticket_list.TabIndex = 117
         Me.lv_trip_ticket_list.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
@@ -116,17 +129,6 @@ Partial Class Frm_trip_ticket_monitoring
         Me.RadGroupBox4.Name = "RadGroupBox4"
         Me.RadGroupBox4.Size = New System.Drawing.Size(887, 242)
         Me.RadGroupBox4.TabIndex = 4
-        '
-        'RadLabel5
-        '
-        Me.RadLabel5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadLabel5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel5.Location = New System.Drawing.Point(8, 12)
-        Me.RadLabel5.Name = "RadLabel5"
-        Me.RadLabel5.Size = New System.Drawing.Size(142, 19)
-        Me.RadLabel5.TabIndex = 118
-        Me.RadLabel5.Text = "Trip Ticket Information"
         '
         'lv_tripticket_information
         '
@@ -145,6 +147,17 @@ Partial Class Frm_trip_ticket_monitoring
         Me.lv_tripticket_information.TabIndex = 117
         Me.lv_tripticket_information.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
+        'RadLabel5
+        '
+        Me.RadLabel5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RadLabel5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadLabel5.Location = New System.Drawing.Point(8, 12)
+        Me.RadLabel5.Name = "RadLabel5"
+        Me.RadLabel5.Size = New System.Drawing.Size(142, 19)
+        Me.RadLabel5.TabIndex = 118
+        Me.RadLabel5.Text = "Trip Ticket Information"
+        '
         'RadGroupBox3
         '
         Me.RadGroupBox3.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
@@ -158,17 +171,6 @@ Partial Class Frm_trip_ticket_monitoring
         Me.RadGroupBox3.Name = "RadGroupBox3"
         Me.RadGroupBox3.Size = New System.Drawing.Size(451, 335)
         Me.RadGroupBox3.TabIndex = 7
-        '
-        'RadLabel3
-        '
-        Me.RadLabel3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadLabel3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel3.Location = New System.Drawing.Point(6, 13)
-        Me.RadLabel3.Name = "RadLabel3"
-        Me.RadLabel3.Size = New System.Drawing.Size(144, 19)
-        Me.RadLabel3.TabIndex = 118
-        Me.RadLabel3.Text = "Unprocessed trip Ticket"
         '
         'lv_tripticket_unprocessed
         '
@@ -187,6 +189,17 @@ Partial Class Frm_trip_ticket_monitoring
         Me.lv_tripticket_unprocessed.TabIndex = 117
         Me.lv_tripticket_unprocessed.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
+        'RadLabel3
+        '
+        Me.RadLabel3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RadLabel3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadLabel3.Location = New System.Drawing.Point(6, 13)
+        Me.RadLabel3.Name = "RadLabel3"
+        Me.RadLabel3.Size = New System.Drawing.Size(144, 19)
+        Me.RadLabel3.TabIndex = 118
+        Me.RadLabel3.Text = "Unprocessed trip Ticket"
+        '
         'RadGroupBox2
         '
         Me.RadGroupBox2.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
@@ -200,17 +213,6 @@ Partial Class Frm_trip_ticket_monitoring
         Me.RadGroupBox2.Name = "RadGroupBox2"
         Me.RadGroupBox2.Size = New System.Drawing.Size(420, 336)
         Me.RadGroupBox2.TabIndex = 6
-        '
-        'RadLabel4
-        '
-        Me.RadLabel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadLabel4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel4.Location = New System.Drawing.Point(6, 14)
-        Me.RadLabel4.Name = "RadLabel4"
-        Me.RadLabel4.Size = New System.Drawing.Size(130, 19)
-        Me.RadLabel4.TabIndex = 118
-        Me.RadLabel4.Text = "Processed Trip Ticket"
         '
         'lv_tripticket_processed
         '
@@ -228,6 +230,17 @@ Partial Class Frm_trip_ticket_monitoring
         Me.lv_tripticket_processed.Size = New System.Drawing.Size(408, 297)
         Me.lv_tripticket_processed.TabIndex = 117
         Me.lv_tripticket_processed.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
+        '
+        'RadLabel4
+        '
+        Me.RadLabel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RadLabel4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadLabel4.Location = New System.Drawing.Point(6, 14)
+        Me.RadLabel4.Name = "RadLabel4"
+        Me.RadLabel4.Size = New System.Drawing.Size(130, 19)
+        Me.RadLabel4.TabIndex = 118
+        Me.RadLabel4.Text = "Processed Trip Ticket"
         '
         'RadSplitContainer1
         '
@@ -280,18 +293,6 @@ Partial Class Frm_trip_ticket_monitoring
         Me.SplitPanel2.TabStop = False
         Me.SplitPanel2.Text = "SplitPanel2"
         '
-        'RadPanel1
-        '
-        Me.RadPanel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadPanel1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.RadPanel1.Location = New System.Drawing.Point(6, 56)
-        Me.RadPanel1.Name = "RadPanel1"
-        Me.RadPanel1.Size = New System.Drawing.Size(356, 32)
-        Me.RadPanel1.TabIndex = 124
-        Me.RadPanel1.Text = "Issued Trip Ticket"
-        Me.RadPanel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'Frm_trip_ticket_monitoring
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -308,30 +309,31 @@ Partial Class Frm_trip_ticket_monitoring
         Me.Text = "Frm_trip_ticket_monitoring"
         CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadGroupBox1.ResumeLayout(False)
+        CType(Me.RadPanel1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.RadPanel1.ResumeLayout(False)
         CType(Me.btn_lotno, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lv_trip_ticket_list, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadGroupBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadGroupBox4.ResumeLayout(False)
         Me.RadGroupBox4.PerformLayout()
-        CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lv_tripticket_information, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadGroupBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadGroupBox3.ResumeLayout(False)
         Me.RadGroupBox3.PerformLayout()
-        CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lv_tripticket_unprocessed, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadGroupBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadGroupBox2.ResumeLayout(False)
         Me.RadGroupBox2.PerformLayout()
-        CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lv_tripticket_processed, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadSplitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadSplitContainer1.ResumeLayout(False)
         CType(Me.SplitPanel1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitPanel1.ResumeLayout(False)
         CType(Me.SplitPanel2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitPanel2.ResumeLayout(False)
-        CType(Me.RadPanel1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
