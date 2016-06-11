@@ -169,6 +169,9 @@ Public Class Frm_lot_by_lot_monitoring
         Me.lv_lotcode_history.GroupDescriptors.Clear()
         Dim groupByType As New GroupDescriptor("cur_variety")
         Me.lv_lotcode_history.GroupDescriptors.Add(groupByType)
+
+
+        Me.lv_lotcode_history.SelectedItem = Me.lv_lotcode_history.Items(0)
     End Sub
 
     Private Sub btn_lotno_Click(sender As Object, e As EventArgs) Handles btn_lotno.Click

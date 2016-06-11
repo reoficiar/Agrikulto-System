@@ -159,14 +159,14 @@ Public Class Frm_form_status
     Private Sub Frm_form_status_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
         Frm_main.Enabled = True
 
-        Select Case form_type
-            Case 0
-                request_form_view.trip_ticket_request_form_approved_data_load()
-            Case 1
-                schedule_form_view.trip_ticket_schedule_form_processed_data_load()
-            Case 2
-                accomplished_form_view.trip_ticket_accomplihed_form_posted_data_load()
-        End Select
+        'Select Case form_type
+        '    Case 0
+        '        request_form_view.trip_ticket_request_form_approved_data_load()
+        '    Case 1
+        '        schedule_form_view.trip_ticket_schedule_form_processed_data_load()
+        '    Case 2
+        '        accomplished_form_view.trip_ticket_accomplihed_form_posted_data_load()
+        'End Select
         slct_id_req_hdr = Nothing
     End Sub
 

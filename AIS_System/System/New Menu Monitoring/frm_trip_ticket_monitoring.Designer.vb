@@ -107,7 +107,8 @@ Partial Class Frm_trip_ticket_monitoring
         Me.lv_trip_ticket_list.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_trip_ticket_list.Font = New System.Drawing.Font("Segoe UI", 7.5!, System.Drawing.FontStyle.Bold)
+        Me.lv_trip_ticket_list.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold)
+        Me.lv_trip_ticket_list.HeaderHeight = 30.0!
         Me.lv_trip_ticket_list.ItemSpacing = -1
         Me.lv_trip_ticket_list.Location = New System.Drawing.Point(6, 32)
         Me.lv_trip_ticket_list.Name = "lv_trip_ticket_list"
@@ -137,7 +138,8 @@ Partial Class Frm_trip_ticket_monitoring
         Me.lv_tripticket_information.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_tripticket_information.Font = New System.Drawing.Font("Segoe UI", 7.5!, System.Drawing.FontStyle.Bold)
+        Me.lv_tripticket_information.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold)
+        Me.lv_tripticket_information.HeaderHeight = 30.0!
         Me.lv_tripticket_information.ItemSpacing = -1
         Me.lv_tripticket_information.Location = New System.Drawing.Point(6, 30)
         Me.lv_tripticket_information.Name = "lv_tripticket_information"
@@ -179,7 +181,8 @@ Partial Class Frm_trip_ticket_monitoring
         Me.lv_tripticket_unprocessed.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_tripticket_unprocessed.Font = New System.Drawing.Font("Segoe UI", 7.5!, System.Drawing.FontStyle.Bold)
+        Me.lv_tripticket_unprocessed.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold)
+        Me.lv_tripticket_unprocessed.HeaderHeight = 30.0!
         Me.lv_tripticket_unprocessed.ItemSpacing = -1
         Me.lv_tripticket_unprocessed.Location = New System.Drawing.Point(6, 31)
         Me.lv_tripticket_unprocessed.Name = "lv_tripticket_unprocessed"
@@ -221,7 +224,8 @@ Partial Class Frm_trip_ticket_monitoring
         Me.lv_tripticket_processed.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_tripticket_processed.Font = New System.Drawing.Font("Segoe UI", 7.5!, System.Drawing.FontStyle.Bold)
+        Me.lv_tripticket_processed.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold)
+        Me.lv_tripticket_processed.HeaderHeight = 30.0!
         Me.lv_tripticket_processed.ItemSpacing = -1
         Me.lv_tripticket_processed.Location = New System.Drawing.Point(6, 32)
         Me.lv_tripticket_processed.Name = "lv_tripticket_processed"

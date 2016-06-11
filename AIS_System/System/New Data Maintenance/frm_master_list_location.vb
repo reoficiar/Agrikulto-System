@@ -177,5 +177,4 @@ Public Class Frm_master_list_location
         Dim sort = New SortDescriptor(sortsss, ListSortDirection.Descending)
         Me.lv_masterlocation.SortDescriptors.Add(sort)
     End Sub
-
 End Class

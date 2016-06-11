@@ -16,11 +16,13 @@ Public Class Frm_trip_ticket_monitoring
             .Columns.Add("trip_no", "TRIP TICKET NO.")
             .Columns.Add("destination", "DESTINATION")
             .Columns.Add("status", "STATUS")
+            .Columns.Add("need_date", "need_date")
 
             .Columns("count").Width = 40
             .Columns("trip_no").Width = 110
             .Columns("destination").Width = 120
             .Columns("status").Width = 80
+            .Columns("need_date").Visible = False
 
             .FullRowSelect = True
             .ShowGroups = True
@@ -126,4 +128,42 @@ Public Class Frm_trip_ticket_monitoring
         trip_ticket_list_listview_column() : trip_ticket_processed_listview_column() : trip_ticket_unprocessed_listview_column() : trip_ticket_information_listview_column()
     End Sub
 
+    Private Sub listview_formatting(sender As Object, e As ListViewCellFormattingEventArgs) Handles lv_tripticket_unprocessed.CellFormatting, _
+        lv_tripticket_processed.CellFormatting, lv_tripticket_information.CellFormatting, lv_trip_ticket_list.CellFormatting
+        trip_ticket_class.lv_cellformatting(e)
+    End Sub
+
+    Private Sub btn_lotno_Click(sender As Object, e As EventArgs) Handles btn_lotno.Click
+        trip_ticket_class.issued_trip_ticket_listview()
+
+        Me.lv_trip_ticket_list.GroupDescriptors.Clear()
+        'Dim groupByType As New GroupDescriptor("need_date")
+        Dim groupByType As New GroupDescriptor(New SortDescriptor() {New SortDescriptor("need_date", ListSortDirection.Descending)})
+        Me.lv_trip_ticket_list.GroupDescriptors.Add(groupByType)
+
+        group_expantion(Me.lv_trip_ticket_list.Groups.Count, lv_trip_ticket_list)
+
+
+
+    End Sub
+
+    Private Sub lv_trip_ticket_list_VisualItemFormatting(sender As Object, e As ListViewVisualItemEventArgs) Handles lv_trip_ticket_list.VisualItemFormatting
+        Dim groupItem As BaseListViewGroupVisualItem = TryCast(e.VisualItem, BaseListViewGroupVisualItem)
+        If groupItem IsNot Nothing Then
+            groupItem.Text = groupItem.Data.Text + " ( " + DirectCast(groupItem.Data, ListViewDataItemGroup).Items.Count.ToString + " )"
+        End If
+    End Sub
+
+    Sub group_expantion(groupt_count As String, listv As RadListView)
+        Dim ctr = 0
+        Dim insss As Integer = groupt_count
+        While (ctr < insss)
+            If ctr = 0 Then
+                listv.Groups(0).Expanded = True
+            Else
+                listv.Groups(ctr).Expanded = False
+            End If
+            ctr += 1
+        End While
+    End Sub
 End Class

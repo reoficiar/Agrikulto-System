@@ -337,6 +337,7 @@ Public Class Frm_trip_ticket_NEWS
             Me.lv_approved_request_item.GroupDescriptors.Clear()
             Dim groupByType As New GroupDescriptor("trip_date")
             Me.lv_approved_request_item.GroupDescriptors.Add(groupByType)
+
         End If
     End Sub
 
@@ -606,5 +607,4 @@ Public Class Frm_trip_ticket_NEWS
         Frm_main.Enabled = False
         Frm_form_status.Show()
     End Sub
-
 End Class
