@@ -192,4 +192,10 @@ Public Class Frm_lot_by_lot_monitoring
 
         lot_history_class.lv_cellformatting(e)
     End Sub
+
+    Private Sub lv_lotcodelist_MouseDown(sender As Object, e As MouseEventArgs) Handles lv_lotcodelist.MouseDown
+        If e.Button = Windows.Forms.MouseButtons.Right Then
+            Me.cms_menu.Show(Me, Me.PointToClient(MousePosition))
+        End If
+    End Sub
 End Class

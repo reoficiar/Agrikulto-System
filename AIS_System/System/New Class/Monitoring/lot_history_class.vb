@@ -25,6 +25,16 @@ Public Class lot_history_class
             End If
         End If
 
+        If (e.CellElement).Data.Name = "lot_no" Then
+            If (TypeOf e.CellElement Is DetailListViewHeaderCellElement) Then
+                e.CellElement.TextAlignment = ContentAlignment.MiddleLeft
+            End If
+
+            If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
+                e.CellElement.TextAlignment = ContentAlignment.MiddleLeft
+            End If
+        End If
+
         ''''''''''DISABLED CELL COLOR SELECTION
         If (TypeOf e.Cellelement Is DetailListViewCellElement) Then
             e.CellElement.DrawFill = False

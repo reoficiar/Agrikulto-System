@@ -105,6 +105,7 @@ Partial Class Frm_trip_ticket_monitoring
         '
         'lv_trip_ticket_list
         '
+        Me.lv_trip_ticket_list.AllowColumnReorder = False
         Me.lv_trip_ticket_list.AllowEdit = False
         Me.lv_trip_ticket_list.AllowRemove = False
         Me.lv_trip_ticket_list.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -136,6 +137,7 @@ Partial Class Frm_trip_ticket_monitoring
         '
         'lv_tripticket_information
         '
+        Me.lv_tripticket_information.AllowColumnReorder = False
         Me.lv_tripticket_information.AllowEdit = False
         Me.lv_tripticket_information.AllowRemove = False
         Me.lv_tripticket_information.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -179,6 +181,7 @@ Partial Class Frm_trip_ticket_monitoring
         '
         'lv_tripticket_unprocessed
         '
+        Me.lv_tripticket_unprocessed.AllowColumnReorder = False
         Me.lv_tripticket_unprocessed.AllowEdit = False
         Me.lv_tripticket_unprocessed.AllowRemove = False
         Me.lv_tripticket_unprocessed.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -222,6 +225,7 @@ Partial Class Frm_trip_ticket_monitoring
         '
         'lv_tripticket_processed
         '
+        Me.lv_tripticket_processed.AllowColumnReorder = False
         Me.lv_tripticket_processed.AllowEdit = False
         Me.lv_tripticket_processed.AllowRemove = False
         Me.lv_tripticket_processed.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _

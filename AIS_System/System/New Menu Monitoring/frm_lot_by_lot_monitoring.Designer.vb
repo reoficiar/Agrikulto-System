@@ -22,6 +22,7 @@ Partial Class Frm_lot_by_lot_monitoring
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.RadGroupBox1 = New Telerik.WinControls.UI.RadGroupBox()
         Me.btn_lotno = New Telerik.WinControls.UI.RadButton()
         Me.dp_cropyear = New Telerik.WinControls.UI.RadDropDownList()
@@ -40,6 +41,8 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.RadPanel2 = New Telerik.WinControls.UI.RadPanel()
         Me.RadPanel1 = New Telerik.WinControls.UI.RadPanel()
         Me.lv_lotcode_history = New Telerik.WinControls.UI.RadListView()
+        Me.cms_menu = New Telerik.WinControls.UI.RadContextMenu(Me.components)
+        Me.menu_totalcostsummary = New Telerik.WinControls.UI.RadMenuItem()
         CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox1.SuspendLayout()
         CType(Me.btn_lotno, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -153,6 +156,7 @@ Partial Class Frm_lot_by_lot_monitoring
         '
         'lv_lotcodelist
         '
+        Me.lv_lotcodelist.AllowColumnReorder = False
         Me.lv_lotcodelist.AllowEdit = False
         Me.lv_lotcodelist.AllowRemove = False
         Me.lv_lotcodelist.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -218,6 +222,7 @@ Partial Class Frm_lot_by_lot_monitoring
         '
         'lv_implement
         '
+        Me.lv_implement.AllowColumnReorder = False
         Me.lv_implement.AllowEdit = False
         Me.lv_implement.AllowRemove = False
         Me.lv_implement.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
@@ -234,6 +239,7 @@ Partial Class Frm_lot_by_lot_monitoring
         '
         'lv_equipment
         '
+        Me.lv_equipment.AllowColumnReorder = False
         Me.lv_equipment.AllowEdit = False
         Me.lv_equipment.AllowRemove = False
         Me.lv_equipment.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
@@ -318,6 +324,18 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_lotcode_history.TabStop = False
         Me.lv_lotcode_history.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
+        'cms_menu
+        '
+        Me.cms_menu.Items.AddRange(New Telerik.WinControls.RadItem() {Me.menu_totalcostsummary})
+        '
+        'menu_totalcostsummary
+        '
+        Me.menu_totalcostsummary.AccessibleDescription = "Total Cost Summary"
+        Me.menu_totalcostsummary.AccessibleName = "Total Cost Summary"
+        Me.menu_totalcostsummary.Name = "menu_totalcostsummary"
+        Me.menu_totalcostsummary.Text = "Total Cost Summary"
+        Me.menu_totalcostsummary.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        '
         'Frm_lot_by_lot_monitoring
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -374,5 +392,7 @@ Partial Class Frm_lot_by_lot_monitoring
     Friend WithEvents RadPanel4 As Telerik.WinControls.UI.RadPanel
     Friend WithEvents btn_lotno As Telerik.WinControls.UI.RadButton
     Friend WithEvents lv_equipment As Telerik.WinControls.UI.RadListView
+    Friend WithEvents cms_menu As Telerik.WinControls.UI.RadContextMenu
+    Friend WithEvents menu_totalcostsummary As Telerik.WinControls.UI.RadMenuItem
 End Class
 

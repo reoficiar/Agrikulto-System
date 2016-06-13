@@ -172,12 +172,15 @@ Public Class Frm_trip_ticket_monitoring
         trip_ticket_class.information_trip_ticket_listview(hdr_id_monitoring, 0)
 
         trip_ticket_class.dispalyed_selected_listview_item(lv_tripticket_information)
+        Me.lv_tripticket_unprocessed.SelectedItem = Nothing
     End Sub
+
 
     Private Sub lv_tripticket_unprocessed_SelectedItemChanged(sender As Object, e As EventArgs) Handles lv_tripticket_unprocessed.SelectedItemChanged
         trip_ticket_class.Global_unprocessed_selected()
         trip_ticket_class.information_trip_ticket_listview(hdr_id_monitoring, 1)
 
         trip_ticket_class.dispalyed_selected_listview_item(lv_tripticket_information)
+        Me.lv_tripticket_processed.SelectedItem = Nothing
     End Sub
 End Class
