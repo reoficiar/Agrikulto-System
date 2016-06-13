@@ -22,6 +22,7 @@ Partial Class Frm_trip_ticket_monitoring
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.RadGroupBox1 = New Telerik.WinControls.UI.RadGroupBox()
         Me.RadPanel1 = New Telerik.WinControls.UI.RadPanel()
         Me.btn_lotno = New Telerik.WinControls.UI.RadButton()
@@ -38,6 +39,8 @@ Partial Class Frm_trip_ticket_monitoring
         Me.RadSplitContainer1 = New Telerik.WinControls.UI.RadSplitContainer()
         Me.SplitPanel1 = New Telerik.WinControls.UI.SplitPanel()
         Me.SplitPanel2 = New Telerik.WinControls.UI.SplitPanel()
+        Me.cms_issued_ticket = New Telerik.WinControls.UI.RadContextMenu(Me.components)
+        Me.view_more_date_info = New Telerik.WinControls.UI.RadMenuItem()
         CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox1.SuspendLayout()
         CType(Me.RadPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -297,6 +300,18 @@ Partial Class Frm_trip_ticket_monitoring
         Me.SplitPanel2.TabStop = False
         Me.SplitPanel2.Text = "SplitPanel2"
         '
+        'cms_issued_ticket
+        '
+        Me.cms_issued_ticket.Items.AddRange(New Telerik.WinControls.RadItem() {Me.view_more_date_info})
+        '
+        'view_more_date_info
+        '
+        Me.view_more_date_info.AccessibleDescription = "View Detail to this Date"
+        Me.view_more_date_info.AccessibleName = "View Detail to this Date"
+        Me.view_more_date_info.Name = "view_more_date_info"
+        Me.view_more_date_info.Text = "View Detail to this Date"
+        Me.view_more_date_info.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        '
         'Frm_trip_ticket_monitoring
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -358,5 +373,7 @@ Partial Class Frm_trip_ticket_monitoring
     Friend WithEvents SplitPanel1 As Telerik.WinControls.UI.SplitPanel
     Friend WithEvents SplitPanel2 As Telerik.WinControls.UI.SplitPanel
     Friend WithEvents RadPanel1 As Telerik.WinControls.UI.RadPanel
+    Friend WithEvents cms_issued_ticket As Telerik.WinControls.UI.RadContextMenu
+    Friend WithEvents view_more_date_info As Telerik.WinControls.UI.RadMenuItem
 End Class
 

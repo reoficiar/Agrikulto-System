@@ -141,29 +141,43 @@ Public Class Frm_trip_ticket_monitoring
         Dim groupByType As New GroupDescriptor(New SortDescriptor() {New SortDescriptor("need_date", ListSortDirection.Descending)})
         Me.lv_trip_ticket_list.GroupDescriptors.Add(groupByType)
 
-        group_expantion(Me.lv_trip_ticket_list.Groups.Count, lv_trip_ticket_list)
+        trip_ticket_class.group_expantion(Me.lv_trip_ticket_list.Groups.Count, lv_trip_ticket_list)
 
 
 
     End Sub
 
     Private Sub lv_trip_ticket_list_VisualItemFormatting(sender As Object, e As ListViewVisualItemEventArgs) Handles lv_trip_ticket_list.VisualItemFormatting
-        Dim groupItem As BaseListViewGroupVisualItem = TryCast(e.VisualItem, BaseListViewGroupVisualItem)
-        If groupItem IsNot Nothing Then
-            groupItem.Text = groupItem.Data.Text + " ( " + DirectCast(groupItem.Data, ListViewDataItemGroup).Items.Count.ToString + " )"
+        trip_ticket_class.group_count(e)
+    End Sub
+
+    Private Sub lv_trip_ticket_list_MouseDown(sender As Object, e As MouseEventArgs) Handles lv_trip_ticket_list.MouseDown
+        If e.Button = Windows.Forms.MouseButtons.Right Then
+            Me.cms_issued_ticket.Show(Me, Me.PointToClient(MousePosition))
         End If
     End Sub
 
-    Sub group_expantion(groupt_count As String, listv As RadListView)
-        Dim ctr = 0
-        Dim insss As Integer = groupt_count
-        While (ctr < insss)
-            If ctr = 0 Then
-                listv.Groups(0).Expanded = True
-            Else
-                listv.Groups(ctr).Expanded = False
-            End If
-            ctr += 1
-        End While
+    Private Sub view_more_date_info_Click(sender As Object, e As EventArgs) Handles view_more_date_info.Click
+        trip_ticket_class.Global_need_date_selected()
+        trip_ticket_class.processed_trip_ticket_listview(need_dates)
+        trip_ticket_class.unprocessed_trip_ticket_listview(need_dates)
+
+
+        'trip_ticket_class.dispalyed_selected_listview_item(lv_tripticket_processed)
+        'trip_ticket_class.dispalyed_selected_listview_item(lv_tripticket_unprocessed)
+    End Sub
+
+    Private Sub lv_tripticket_processed_SelectedItemChanged(sender As Object, e As EventArgs) Handles lv_tripticket_processed.SelectedItemChanged
+        trip_ticket_class.Global_processed_selected()
+        trip_ticket_class.information_trip_ticket_listview(hdr_id_monitoring, 0)
+
+        trip_ticket_class.dispalyed_selected_listview_item(lv_tripticket_information)
+    End Sub
+
+    Private Sub lv_tripticket_unprocessed_SelectedItemChanged(sender As Object, e As EventArgs) Handles lv_tripticket_unprocessed.SelectedItemChanged
+        trip_ticket_class.Global_unprocessed_selected()
+        trip_ticket_class.information_trip_ticket_listview(hdr_id_monitoring, 1)
+
+        trip_ticket_class.dispalyed_selected_listview_item(lv_tripticket_information)
     End Sub
 End Class

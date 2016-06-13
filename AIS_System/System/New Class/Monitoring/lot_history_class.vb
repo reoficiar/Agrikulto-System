@@ -41,7 +41,7 @@ Public Class lot_history_class
         Try
             Frm_lot_by_lot_monitoring.dp_location.Items.Clear()
             sql = ""
-            sql = "SELECT DISTINCT location FROM v_trip_ticket_schedule_form ORDER BY location ASC"
+            sql = "SELECT DISTINCT location FROM v_trip_ticket_schedule_form WHERE status=1 and dtl_stats=2 ORDER BY location ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -100,6 +100,12 @@ Public Class lot_history_class
             End With
         End If
     End Sub
+
+    Shared Sub dispalyed_selected_listview_item(lv_name As RadListView)
+        If lv_name.Items.Count <> 0 Then
+            lv_name.SelectedItem = lv_name.Items(0)
+        End If
+    End Sub
 #End Region
 
 #Region "LISTVIEW LOAD"
@@ -107,7 +113,7 @@ Public Class lot_history_class
         Try
             sql = ""
             sql = "SELECT  ROW_NUMBER() over (ORDER BY lot_no) as #,lot_no FROM v_trip_ticket_schedule_form WHERE status=1 and dtl_stats=2 AND location ='" _
-                    & "" & location & "' AND fiscal_year='" & cropyear & "' GROUP BY lot_no"
+                    & "" & location & "' AND fiscal_year='" & cropyear & "' AND posted_by IS NOT NULL GROUP BY lot_no"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 

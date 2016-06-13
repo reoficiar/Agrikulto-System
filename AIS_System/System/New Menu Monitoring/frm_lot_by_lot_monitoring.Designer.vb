@@ -158,7 +158,7 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_lotcodelist.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_lotcodelist.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold)
+        Me.lv_lotcodelist.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold)
         Me.lv_lotcodelist.ItemSpacing = -1
         Me.lv_lotcodelist.Location = New System.Drawing.Point(6, 155)
         Me.lv_lotcodelist.Name = "lv_lotcodelist"
@@ -222,7 +222,7 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_implement.AllowRemove = False
         Me.lv_implement.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_implement.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold)
+        Me.lv_implement.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold)
         Me.lv_implement.ItemSpacing = -1
         Me.lv_implement.Location = New System.Drawing.Point(5, 435)
         Me.lv_implement.Name = "lv_implement"
@@ -238,7 +238,7 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_equipment.AllowRemove = False
         Me.lv_equipment.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_equipment.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold)
+        Me.lv_equipment.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold)
         Me.lv_equipment.ItemSpacing = -1
         Me.lv_equipment.Location = New System.Drawing.Point(5, 268)
         Me.lv_equipment.Name = "lv_equipment"
@@ -300,7 +300,7 @@ Partial Class Frm_lot_by_lot_monitoring
         Me.lv_lotcode_history.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_lotcode_history.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold)
+        Me.lv_lotcode_history.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold)
         Me.lv_lotcode_history.ItemSpacing = -1
         Me.lv_lotcode_history.Location = New System.Drawing.Point(5, 39)
         Me.lv_lotcode_history.Name = "lv_lotcode_history"

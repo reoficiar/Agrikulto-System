@@ -170,8 +170,7 @@ Public Class Frm_lot_by_lot_monitoring
         Dim groupByType As New GroupDescriptor("cur_variety")
         Me.lv_lotcode_history.GroupDescriptors.Add(groupByType)
 
-
-        Me.lv_lotcode_history.SelectedItem = Me.lv_lotcode_history.Items(0)
+        lot_history_class.dispalyed_selected_listview_item(lv_lotcode_history)
     End Sub
 
     Private Sub btn_lotno_Click(sender As Object, e As EventArgs) Handles btn_lotno.Click
@@ -183,6 +182,9 @@ Public Class Frm_lot_by_lot_monitoring
         lot_history_class.Global_activity_dtl_id_selected()
         lot_history_class.equipment_load_listview(dtl_id_monitoring)
         lot_history_class.implement_load_listview(dtl_id_monitoring)
+
+        lot_history_class.dispalyed_selected_listview_item(lv_equipment)
+        lot_history_class.dispalyed_selected_listview_item(lv_implement)
     End Sub
 
     Private Sub cellformatin(sender As Object, e As ListViewCellFormattingEventArgs) Handles lv_implement.CellFormatting _
