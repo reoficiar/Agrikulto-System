@@ -320,6 +320,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="System\New Module\declaration.vb" />
+    <Compile Include="System\User Control\frm_user_control_maintenace.Designer.vb">
+      <DependentUpon>frm_user_control_maintenace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\User Control\frm_user_control_maintenace.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <EmbeddedResource Include="Forms\Data Maintenance\frm_equipment.resx">
       <DependentUpon>frm_equipment.vb</DependentUpon>
     </EmbeddedResource>
@@ -440,6 +446,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="System\New Menu Monitoring\frm_trip_ticket_monitoring.resx">
       <DependentUpon>frm_trip_ticket_monitoring.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\User Control\frm_user_control_maintenace.resx">
+      <DependentUpon>frm_user_control_maintenace.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
