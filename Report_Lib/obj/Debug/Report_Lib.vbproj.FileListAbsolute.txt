@@ -7,3 +7,16 @@ C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_S
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.dll
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.xml
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.pdb
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\bin\Debug\Report_Lib.dll
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\bin\Debug\Report_Lib.pdb
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\bin\Debug\Report_Lib.xml
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\bin\Debug\Telerik.Reporting.dll
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\bin\Debug\Telerik.Reporting.pdb
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\bin\Debug\Telerik.Reporting.xml
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.vbprojResolveAssemblyReference.cache
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.Resources.resources
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.trip_ticket_schedule_report.resources
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.vbproj.GenerateResource.Cache
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.dll
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.xml
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.pdb
