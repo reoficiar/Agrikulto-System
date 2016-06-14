@@ -29,7 +29,7 @@ Partial Class frm_user_control_maintenace
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(745, 450)
+        Me.ClientSize = New System.Drawing.Size(772, 458)
         Me.Name = "frm_user_control_maintenace"
         '
         '
