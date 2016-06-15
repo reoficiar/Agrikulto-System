@@ -23,3 +23,4 @@ C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_S
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.dll
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.xml
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.pdb
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\Report_Lib\obj\Debug\Report_Lib.vbprojResolveAssemblyReference.cache

@@ -76,7 +76,7 @@ Public Class Frm_request_form_approve
         ThemeResolutionService.ApplicationThemeName = My.Settings.global_themes
         'Farming_Operation.Server_time()
 
-        'AddHandler Me.pvp_aprroval_request.SelectedPageChanged, New System.EventHandler(AddressOf pvp_aprroval_request_SelectedPageChanged)
+        AddHandler Me.pvp_aprroval_request.SelectedPageChanged, New System.EventHandler(AddressOf pvp_aprroval_request_SelectedPageChanged)
 
         request_form_view.dp_driver_load()
         request_form_view.driver_validity()
@@ -118,11 +118,11 @@ Public Class Frm_request_form_approve
             request_form_view.equipment_listview()
             grouping()
             Me.tp_load.Enabled = False
-        ElseIf Me.pvp_aprroval_request.SelectedPage Is pvp_page2 Then
-            implement_column()
-            request_form_view.implement_listview()
-            grouping()
-            Me.tp_load.Enabled = False
+            'ElseIf Me.pvp_aprroval_request.SelectedPage Is pvp_page2 Then
+            '    implement_column()
+            '    request_form_view.implement_listview()
+            '    grouping()
+            '    Me.tp_load.Enabled = False
         End If
     End Sub
 

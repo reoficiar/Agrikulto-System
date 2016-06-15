@@ -539,7 +539,7 @@ Partial Class Frm_request_form_approve
         Me.pvp_aprroval_request.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
         Me.pvp_aprroval_request.Location = New System.Drawing.Point(2, 3)
         Me.pvp_aprroval_request.Name = "pvp_aprroval_request"
-        Me.pvp_aprroval_request.SelectedPage = Me.pvp_page2
+        Me.pvp_aprroval_request.SelectedPage = Me.pvp_page1
         Me.pvp_aprroval_request.Size = New System.Drawing.Size(601, 570)
         Me.pvp_aprroval_request.TabIndex = 0
         Me.pvp_aprroval_request.Text = "RadPageView1"

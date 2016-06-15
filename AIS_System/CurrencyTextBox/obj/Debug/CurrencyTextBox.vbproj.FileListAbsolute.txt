@@ -56,3 +56,4 @@ C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_S
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.dll
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.xml
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.pdb
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\CurrencyTextBox\obj\Debug\CurrencyTextBox.vbprojResolveAssemblyReference.cache
