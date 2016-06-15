@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Frm_request_form_approve
     Inherits Telerik.WinControls.UI.RadForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Frm_request_form_approve
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.RadScrollablePanel1 = New Telerik.WinControls.UI.RadScrollablePanel()
@@ -57,10 +57,10 @@ Partial Class Frm_request_form_approve
         Me.btn_ST_save = New Telerik.WinControls.UI.RadButton()
         Me.pvp_aprroval_request = New Telerik.WinControls.UI.RadPageView()
         Me.pvp_page1 = New Telerik.WinControls.UI.RadPageViewPage()
+        Me.lv_equipments = New Telerik.WinControls.UI.RadListView()
         Me.btn_refresh_equipment = New Telerik.WinControls.UI.RadButton()
         Me.btn_lockin_equipment = New Telerik.WinControls.UI.RadButton()
         Me.RadLabel9 = New Telerik.WinControls.UI.RadLabel()
-        Me.lv_equipments = New Telerik.WinControls.UI.RadListView()
         Me.txt_ST_ticketsno = New Telerik.WinControls.UI.RadTextBox()
         Me.RadLabel3 = New Telerik.WinControls.UI.RadLabel()
         Me.pvp_page2 = New Telerik.WinControls.UI.RadPageViewPage()
@@ -110,10 +110,10 @@ Partial Class Frm_request_form_approve
         CType(Me.pvp_aprroval_request, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pvp_aprroval_request.SuspendLayout()
         Me.pvp_page1.SuspendLayout()
+        CType(Me.lv_equipments, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_refresh_equipment, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_lockin_equipment, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.lv_equipments, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txt_ST_ticketsno, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pvp_page2.SuspendLayout()
@@ -539,7 +539,7 @@ Partial Class Frm_request_form_approve
         Me.pvp_aprroval_request.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
         Me.pvp_aprroval_request.Location = New System.Drawing.Point(2, 3)
         Me.pvp_aprroval_request.Name = "pvp_aprroval_request"
-        Me.pvp_aprroval_request.SelectedPage = Me.pvp_page1
+        Me.pvp_aprroval_request.SelectedPage = Me.pvp_page2
         Me.pvp_aprroval_request.Size = New System.Drawing.Size(601, 570)
         Me.pvp_aprroval_request.TabIndex = 0
         Me.pvp_aprroval_request.Text = "RadPageView1"
@@ -547,16 +547,35 @@ Partial Class Frm_request_form_approve
         '
         'pvp_page1
         '
+        Me.pvp_page1.Controls.Add(Me.lv_equipments)
         Me.pvp_page1.Controls.Add(Me.btn_refresh_equipment)
         Me.pvp_page1.Controls.Add(Me.btn_lockin_equipment)
         Me.pvp_page1.Controls.Add(Me.RadLabel9)
-        Me.pvp_page1.Controls.Add(Me.lv_equipments)
         Me.pvp_page1.Controls.Add(Me.txt_ST_ticketsno)
         Me.pvp_page1.Controls.Add(Me.RadLabel3)
+        Me.pvp_page1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pvp_page1.Location = New System.Drawing.Point(5, 29)
         Me.pvp_page1.Name = "pvp_page1"
         Me.pvp_page1.Size = New System.Drawing.Size(591, 475)
         Me.pvp_page1.Text = "Equipment List"
+        '
+        'lv_equipments
+        '
+        Me.lv_equipments.AllowEdit = False
+        Me.lv_equipments.AllowRemove = False
+        Me.lv_equipments.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lv_equipments.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.lv_equipments.ItemSpacing = -1
+        Me.lv_equipments.Location = New System.Drawing.Point(4, 62)
+        Me.lv_equipments.Name = "lv_equipments"
+        Me.lv_equipments.SelectLastAddedItem = False
+        Me.lv_equipments.ShowGridLines = True
+        Me.lv_equipments.Size = New System.Drawing.Size(584, 383)
+        Me.lv_equipments.TabIndex = 51
+        Me.lv_equipments.Text = "RadListView1"
+        Me.lv_equipments.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
         'btn_refresh_equipment
         '
@@ -587,24 +606,6 @@ Partial Class Frm_request_form_approve
         Me.RadLabel9.Size = New System.Drawing.Size(254, 19)
         Me.RadLabel9.TabIndex = 48
         Me.RadLabel9.Text = "NOTE: Items group by EQUIPMENT OWNER."
-        '
-        'lv_equipments
-        '
-        Me.lv_equipments.AllowEdit = False
-        Me.lv_equipments.AllowRemove = False
-        Me.lv_equipments.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_equipments.EnableColumnSort = True
-        Me.lv_equipments.ItemSpacing = -1
-        Me.lv_equipments.Location = New System.Drawing.Point(3, 62)
-        Me.lv_equipments.Name = "lv_equipments"
-        Me.lv_equipments.SelectLastAddedItem = False
-        Me.lv_equipments.ShowGridLines = True
-        Me.lv_equipments.Size = New System.Drawing.Size(585, 383)
-        Me.lv_equipments.TabIndex = 21
-        Me.lv_equipments.Text = "RadListView1"
-        Me.lv_equipments.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
         'txt_ST_ticketsno
         '
@@ -679,11 +680,11 @@ Partial Class Frm_request_form_approve
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lv_implements.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lv_implements.ItemSpacing = -1
-        Me.lv_implements.Location = New System.Drawing.Point(3, 62)
+        Me.lv_implements.Location = New System.Drawing.Point(4, 62)
         Me.lv_implements.Name = "lv_implements"
         Me.lv_implements.SelectLastAddedItem = False
         Me.lv_implements.ShowGridLines = True
-        Me.lv_implements.Size = New System.Drawing.Size(585, 383)
+        Me.lv_implements.Size = New System.Drawing.Size(584, 383)
         Me.lv_implements.TabIndex = 23
         Me.lv_implements.Text = "RadListView1"
         Me.lv_implements.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
@@ -770,10 +771,10 @@ Partial Class Frm_request_form_approve
         Me.pvp_aprroval_request.ResumeLayout(False)
         Me.pvp_page1.ResumeLayout(False)
         Me.pvp_page1.PerformLayout()
+        CType(Me.lv_equipments, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btn_refresh_equipment, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btn_lockin_equipment, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.lv_equipments, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txt_ST_ticketsno, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pvp_page2.ResumeLayout(False)
@@ -823,7 +824,6 @@ Partial Class Frm_request_form_approve
     Friend WithEvents RadLabel8 As Telerik.WinControls.UI.RadLabel
     Friend WithEvents txt_distenation As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents lv_implements As Telerik.WinControls.UI.RadListView
-    Friend WithEvents lv_equipments As Telerik.WinControls.UI.RadListView
     Friend WithEvents RadLabel9 As Telerik.WinControls.UI.RadLabel
     Friend WithEvents btn_lockin_equipment As Telerik.WinControls.UI.RadButton
     Friend WithEvents btn_lock_in_implement As Telerik.WinControls.UI.RadButton
@@ -836,5 +836,6 @@ Partial Class Frm_request_form_approve
     Friend WithEvents RadLabel16 As Telerik.WinControls.UI.RadLabel
     Friend WithEvents txt_workoperation As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents RadLabel17 As Telerik.WinControls.UI.RadLabel
+    Friend WithEvents lv_equipments As Telerik.WinControls.UI.RadListView
 End Class
 

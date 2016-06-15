@@ -238,13 +238,23 @@ C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_Sys
 C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_request_form_update.resources
 C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Resources.resources
 C:\Users\JeromeMaca\Desktop\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbproj.GenerateResource.Cache
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe.config
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.exe
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.xml
+C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.pdb
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe.config
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.pdb
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.xml
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.dll
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Report_Lib.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.Reporting.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.ReportViewer.WinForms.dll
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.GridView.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.RadDock.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.RichTextBox.dll
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.SpellChecker.dll
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Aqua.dll
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Breeze.dll
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.Themes.Desert.dll
@@ -268,7 +278,15 @@ C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_S
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Report_Lib.xml
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.pdb
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\CurrencyTextBox.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.Reporting.pdb
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.Reporting.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.ReportViewer.WinForms.xml
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.GridView.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.RadDock.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.RichTextBox.xml
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.SpellChecker.xml
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\Telerik.WinControls.UI.xml
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.vbprojResolveAssemblyReference.cache
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_equipment.resources
@@ -286,6 +304,9 @@ C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_S
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_form_status.resources
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_accomplished_posting.resources
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_schedule_encoding.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_lot_by_lot_monitoring.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_trip_ticket_monitoring.resources
+C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.frm_user_control_maintenace.resources
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_main.resources
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_canepoint.resources
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_jobsticket.resources
@@ -303,9 +324,3 @@ C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_S
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.exe
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.xml
 C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.pdb
-C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_lot_by_lot_monitoring.resources
-C:\Users\Jerome Maca\OneDrive\On Going Development\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.Frm_trip_ticket_monitoring.resources
-C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\AIS_System\bin\Debug\AIS_System.exe.config
-C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.exe
-C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.xml
-C:\Users\Jerome Maca\Desktop\System\Agrikulto System\AIS_System\AIS_System\obj\x86\Debug\AIS_System.pdb

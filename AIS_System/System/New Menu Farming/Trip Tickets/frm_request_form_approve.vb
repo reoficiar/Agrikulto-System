@@ -76,7 +76,7 @@ Public Class Frm_request_form_approve
         ThemeResolutionService.ApplicationThemeName = My.Settings.global_themes
         'Farming_Operation.Server_time()
 
-        AddHandler Me.pvp_aprroval_request.SelectedPageChanged, New System.EventHandler(AddressOf pvp_aprroval_request_SelectedPageChanged)
+        'AddHandler Me.pvp_aprroval_request.SelectedPageChanged, New System.EventHandler(AddressOf pvp_aprroval_request_SelectedPageChanged)
 
         request_form_view.dp_driver_load()
         request_form_view.driver_validity()
@@ -132,7 +132,7 @@ Public Class Frm_request_form_approve
         'lv_equipments.GroupDescriptors.Add(groupByType)
 
         If Me.pvp_aprroval_request.SelectedPage Is pvp_page1 Then
-             Me.lv_equipments.GroupDescriptors.Clear()
+            Me.lv_equipments.GroupDescriptors.Clear()
             Dim groupByType As New GroupDescriptor(New SortDescriptor() {New SortDescriptor("onwer_name", ListSortDirection.Ascending)})
             lv_equipments.GroupDescriptors.Add(groupByType)
         ElseIf Me.pvp_aprroval_request.SelectedPage Is pvp_page2 Then
@@ -142,7 +142,7 @@ Public Class Frm_request_form_approve
         End If
     End Sub
 
-    Private Sub lv_equipments_CellFormatting(sender As Object, e As ListViewCellFormattingEventArgs) Handles lv_equipments.CellFormatting
+    Private Sub lv_equipments_CellFormatting(sender As Object, e As ListViewCellFormattingEventArgs)
         If TypeOf e.CellElement Is DetailListViewHeaderCellElement Then
             e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
         Else
@@ -279,7 +279,7 @@ Public Class Frm_request_form_approve
 
     End Sub
 
-    Private Sub lv_equipments_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lv_equipments.SelectedIndexChanged
+    Private Sub lv_equipments_SelectedIndexChanged(sender As Object, e As EventArgs)
         request_form_view.approval_equip_id()
     End Sub
 
