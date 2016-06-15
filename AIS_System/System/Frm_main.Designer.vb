@@ -62,8 +62,8 @@ Partial Class Frm_main
         Me.menumonitoring = New Telerik.WinControls.UI.RadMenuItem()
         Me.menuitemlotstatus = New Telerik.WinControls.UI.RadMenuItem()
         Me.RadMenuSeparatorItem1 = New Telerik.WinControls.UI.RadMenuSeparatorItem()
-        Me.menuitemtripticket = New Telerik.WinControls.UI.RadMenuItem()
-        Me.menuitemcanepoint = New Telerik.WinControls.UI.RadMenuItem()
+        Me.menuitemtripticketstatus = New Telerik.WinControls.UI.RadMenuItem()
+        Me.menuitemcanepointstatus = New Telerik.WinControls.UI.RadMenuItem()
         Me.RadMenuSeparatorItem2 = New Telerik.WinControls.UI.RadMenuSeparatorItem()
         Me.menuiteminventory = New Telerik.WinControls.UI.RadMenuItem()
         Me.menuequipment = New Telerik.WinControls.UI.RadMenuItem()
@@ -410,7 +410,7 @@ Partial Class Frm_main
         '
         Me.menumonitoring.AccessibleDescription = "Operation Monitoring"
         Me.menumonitoring.AccessibleName = "Operation Monitoring"
-        Me.menumonitoring.Items.AddRange(New Telerik.WinControls.RadItem() {Me.menuitemlotstatus, Me.RadMenuSeparatorItem1, Me.menuitemtripticket, Me.menuitemcanepoint, Me.RadMenuSeparatorItem2, Me.menuiteminventory, Me.menuequipment, Me.menuimplement})
+        Me.menumonitoring.Items.AddRange(New Telerik.WinControls.RadItem() {Me.menuitemlotstatus, Me.RadMenuSeparatorItem1, Me.menuitemtripticketstatus, Me.menuitemcanepointstatus, Me.RadMenuSeparatorItem2, Me.menuiteminventory, Me.menuequipment, Me.menuimplement})
         Me.menumonitoring.Name = "menumonitoring"
         Me.menumonitoring.Text = "Operation Monitoring"
         Me.menumonitoring.Visibility = Telerik.WinControls.ElementVisibility.Visible
@@ -431,21 +431,21 @@ Partial Class Frm_main
         Me.RadMenuSeparatorItem1.Text = "RadMenuSeparatorItem1"
         Me.RadMenuSeparatorItem1.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
-        'menuitemtripticket
+        'menuitemtripticketstatus
         '
-        Me.menuitemtripticket.AccessibleDescription = "Trip Ticket"
-        Me.menuitemtripticket.AccessibleName = "Trip Ticket"
-        Me.menuitemtripticket.Name = "menuitemtripticket"
-        Me.menuitemtripticket.Text = "Trip Ticket"
-        Me.menuitemtripticket.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        Me.menuitemtripticketstatus.AccessibleDescription = "Trip Ticket"
+        Me.menuitemtripticketstatus.AccessibleName = "Trip Ticket"
+        Me.menuitemtripticketstatus.Name = "menuitemtripticketstatus"
+        Me.menuitemtripticketstatus.Text = "Trip Ticket Status"
+        Me.menuitemtripticketstatus.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
-        'menuitemcanepoint
+        'menuitemcanepointstatus
         '
-        Me.menuitemcanepoint.AccessibleDescription = "Cane Point"
-        Me.menuitemcanepoint.AccessibleName = "Cane Point"
-        Me.menuitemcanepoint.Name = "menuitemcanepoint"
-        Me.menuitemcanepoint.Text = "Cane Point"
-        Me.menuitemcanepoint.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        Me.menuitemcanepointstatus.AccessibleDescription = "Cane Point"
+        Me.menuitemcanepointstatus.AccessibleName = "Cane Point"
+        Me.menuitemcanepointstatus.Name = "menuitemcanepointstatus"
+        Me.menuitemcanepointstatus.Text = "Cane Point Status"
+        Me.menuitemcanepointstatus.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'RadMenuSeparatorItem2
         '
@@ -542,8 +542,8 @@ Partial Class Frm_main
     Friend WithEvents menumonitoring As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents menuiteminventory As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents menuitemlotstatus As Telerik.WinControls.UI.RadMenuItem
-    Friend WithEvents menuitemtripticket As Telerik.WinControls.UI.RadMenuItem
-    Friend WithEvents menuitemcanepoint As Telerik.WinControls.UI.RadMenuItem
+    Friend WithEvents menuitemtripticketstatus As Telerik.WinControls.UI.RadMenuItem
+    Friend WithEvents menuitemcanepointstatus As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents subotheritem As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents CustomShape1 As Telerik.WinControls.OldShapeEditor.CustomShape
     Friend WithEvents tp_timer As System.Windows.Forms.Timer
